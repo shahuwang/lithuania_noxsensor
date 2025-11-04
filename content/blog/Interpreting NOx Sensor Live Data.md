@@ -37,6 +37,3 @@ Išplėstiniai diagnostikos įrankiai leidžia technikams peržiūrėti vidinius
 | **Jutiklio būsenos vėliavėlės** | Dvejetainis kodas, nurodantis dabartinį jutiklio veikimo režimą (pvz., Šildymas, Matavimas, Klaida). | Jei vėliavėlė per ilgai užstrigo ties „Šildymas“ arba „Klaida“, tikėtina, kad jutiklis sugedo viduje. |
 
 Įvaldydamos šių realiojo laiko duomenų srautų interpretavimą, techninės priežiūros komandos gali tiksliai nustatyti išmetamųjų teršalų gedimų pagrindinę priežastį, drastiškai sumažindamos prastovos laiką ir užkirsdamos kelią nereikalingam komponentų keitimui.
-
----
-Ar norėtumėte, kad patikrinčiau bet kurį konkretų terminą, susijusį su „NOx“ jutikliais ar SCR sistemomis, lietuvių kalba?

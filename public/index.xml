@@ -15,7 +15,7 @@
     
     
     <item>
-      <title>Beyond Signal Drift Understanding NOx Sensor Failure Modes</title>
+      <title>„Eyendo Signal Drift“ – NOx jutiklio gedimų režimų supratimas</title>
       <link>http://localhost:1313/blog/Understanding-NOx-Sensor-Failure-Modes/</link>
       <pubDate>Fri, 01 Aug 2025 00:35:28 +0800</pubDate>
       
@@ -23,35 +23,36 @@
       <description>
         
         
-        &lt;p&gt;NOx sensor reliability is paramount for emissions compliance. While gradual signal drift is a well-known degradation factor, many sensor malfunctions are abrupt, electronic, or communication-related, leading to immediate system shutdowns and diagnostic trouble codes (DTCs). Recognizing these distinct failure modes is crucial for accurate diagnosis and efficient vehicle maintenance.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;1. CAN Communication Failure (The Silent Shutdown)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-can-communication-failure-the-silent-shutdown&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-can-communication-failure-the-silent-shutdown&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx sensors are &amp;ldquo;smart&amp;rdquo; components that communicate with the Engine Control Unit (ECU) via the Controller Area Network (CAN Bus). A communication failure means the ECU suddenly stops receiving the essential NOx or temperature data package from the sensor module.&lt;/p&gt;
+        &lt;h3&gt;&lt;strong&gt;Už Signalo Poslinkio – NOx Jutiklio Gedimo Režimų Supratimas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;už-signalo-poslinkio--nox-jutiklio-gedimo-režimų-supratimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#u%c5%be-signalo-poslinkio--nox-jutiklio-gedimo-re%c5%beim%c5%b3-supratimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx jutiklio patikimumas yra nepaprastai svarbus norint atitikti išmetamųjų teršalų reikalavimus. Nors laipsniškas signalo poslinkis yra gerai žinomas gedimo veiksnys, daugelis jutiklių gedimų yra staigūs, elektroniniai arba susiję su ryšiu, kas lemia greitą sistemos išjungimą ir diagnostikos gedimų kodus (DGC). Šių skirtingų gedimo režimų atpažinimas yra labai svarbus tiksliai diagnozei ir efektyviai transporto priemonės priežiūrai.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;1. CAN Ryšio Gedimas (Tylusis Išjungimas)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-can-ryšio-gedimas-tylusis-išjungimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-can-ry%c5%a1io-gedimas-tylusis-i%c5%a1jungimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx jutikliai yra „išmanūs“ komponentai, kurie su Variklio Valdymo Bloku (VVB) bendrauja per Valdiklio Srities Tinklą (CAN magistralę). Ryšio gedimas reiškia, kad VVB staiga nustoja gauti esminį NOx arba temperatūros duomenų paketą iš jutiklio modulio.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Cause:&lt;/strong&gt; Often traced to a short circuit in the wiring harness, power supply interruption, internal electronic failure within the sensor module, or corrosion at the connector pins.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; Immediate illumination of the Check Engine Light (MIL), typically logging U-codes or P2200-range codes related to &amp;ldquo;communication error&amp;rdquo; or &amp;ldquo;circuit open.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Professional Insight:&lt;/strong&gt; Our sensors are designed with robust CAN transceivers and enhanced shielding to minimize vulnerability to electrical noise and voltage spikes, ensuring stable data transmission even in harsh operating conditions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Priežastis:&lt;/strong&gt; Dažnai atsiranda dėl trumpojo jungimo laidų pynėje, maitinimo šaltinio nutrūkimo, vidinio elektroninio gedimo jutiklio modulyje arba korozijos jungties kaiščiuose.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simptomas:&lt;/strong&gt; Iškart užsidega „Check Engine Light“ (MIL), paprastai užregistruojant U-kodų arba P2200 diapazono kodus, susijusius su „ryšio klaida“ arba „grandinės atvirumu“.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profesionalus Įžvalga:&lt;/strong&gt; Mūsų jutikliai sukurti su tvirtais CAN siųstuvais-imtuvais ir patobulintu ekranavimu, siekiant sumažinti pažeidžiamumą elektros triukšmui ir įtampos šuoliams, užtikrinant stabilų duomenų perdavimą net ir atšiauriomis eksploatavimo sąlygomis.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;2. Heater Circuit Failure (Loss of Operating Temperature)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-heater-circuit-failure-loss-of-operating-temperature&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-heater-circuit-failure-loss-of-operating-temperature&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The electrochemical cell of a NOx sensor requires extremely high temperatures (up to 800 degrees Celsius) to function and to self-clean soot. This temperature is maintained by a dedicated internal heating element.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;2. Šildytuvo Grandinės Gedimas (Darbinės Temperatūros Praradimas)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-šildytuvo-grandinės-gedimas-darbinės-temperatūros-praradimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%c5%a1ildytuvo-grandin%c4%97s-gedimas-darbin%c4%97s-temperat%c5%abros-praradimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx jutiklio elektrocheminė ląstelė reikalauja itin aukštos temperatūros (iki 800 laipsnių Celsijaus), kad veiktų ir savaime išsivalytų nuo suodžių. Ši temperatūra palaikoma specialiu vidiniu šildymo elementu.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Cause:&lt;/strong&gt; Thermal stress and aging lead to an open or short circuit in the heating element or its control circuit.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Symptom:&lt;/strong&gt; The sensor fails to reach or maintain its required operating temperature, often logging a specific heater circuit DTC (P2205, P2208, etc.). The sensor effectively goes &amp;ldquo;offline&amp;rdquo; as its electrochemical process cannot occur.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Consequence:&lt;/strong&gt; The ECU cannot get a valid NOx reading, preventing accurate DEF dosing and severely impairing SCR conversion efficiency, leading to power de-rating (Limp Mode).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Priežastis:&lt;/strong&gt; Terminis stresas ir senėjimas sukelia atvirą arba trumpąjį jungimą šildymo elemente arba jo valdymo grandinėje.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simptomas:&lt;/strong&gt; Jutiklis nepasiekia arba nepalaiko reikiamos darbinės temperatūros, dažnai užregistruodamas specifinį šildytuvo grandinės DGC (P2205, P2208 ir t. t.). Jutiklis efektyviai „atsijungia“, nes negali vykti jo elektrocheminis procesas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pasekmė:&lt;/strong&gt; VVB negali gauti galiojančio NOx rodmens, užkertant kelią tiksliam DEF dozavimui ir smarkiai pabloginant SCR konversijos efektyvumą, kas sukelia galios sumažinimą (Limp Mode - Avarinis Režimas).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;3. Component Separation Failure (Probe vs. Module)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-component-separation-failure-probe-vs-module&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-component-separation-failure-probe-vs-module&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;It is important to differentiate the failure of the sensing element (the probe) from the electronic control unit (the module).&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;3. Komponentų Atskyrimo Gedimas (Zondas vs. Modulis)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-komponentų-atskyrimo-gedimas-zondas-vs-modulis&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-komponent%c5%b3-atskyrimo-gedimas-zondas-vs-modulis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Svarbu atskirti jutimo elemento (zondo) gedimą nuo elektroninio valdymo bloko (modulio) gedimo.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Probe Failure:&lt;/strong&gt; Typically related to chemical degradation, soot fouling, or thermal cracking. This results in slow, inaccurate readings (drift) or slow response time.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Module Failure:&lt;/strong&gt; An internal electronic failure that affects processing, power supply, or CAN communication. This often results in a complete, immediate sensor shutdown.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Maintenance Tip:&lt;/strong&gt; When diagnosing a fault, technicians must verify both the probe&amp;rsquo;s signal plausibility (via live data) and the module&amp;rsquo;s electrical integrity (power/ground/communication).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zondo Gedimas:&lt;/strong&gt; Paprastai susijęs su cheminiu nusidėvėjimu, suodžių užteršimu ar terminiu įtrūkimu. Tai sukelia lėtus, netikslius rodmenis (poslinkį) arba lėtą reakcijos laiką.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modulio Gedimas:&lt;/strong&gt; Vidinis elektroninis gedimas, kuris paveikia apdorojimą, maitinimo šaltinį ar CAN ryšį. Tai dažnai sukelia visišką, staigų jutiklio išsijungimą.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Priežiūros Patarimas:&lt;/strong&gt; Diagnozuojant gedimą, technikai turi patikrinti tiek zondo signalo pagrįstumą (per tiesioginius duomenis), tiek modulio elektrinį vientisumą (maitinimas/žemė/ryšys).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;By addressing these core failure modes with superior component quality and rigorous testing, we ensure our NOx sensors deliver the reliability demanded by modern heavy-duty and commercial applications.&lt;/p&gt;
+&lt;p&gt;Sprendžiant šiuos pagrindinius gedimo režimus su aukštesne komponentų kokybe ir griežtu bandymu, mes užtikriname, kad mūsų NOx jutikliai teiktų patikimumą, reikalingą šiuolaikinėms sunkiasvorėms ir komercinėms programoms.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>The Future of NOx Sensor Technology</title>
+      <title>NOx jutiklio technologijos ateitis</title>
       <link>http://localhost:1313/blog/The-Future-of-NOx-Sensor-Technology/</link>
       <pubDate>Mon, 30 Jun 2025 00:35:28 +0800</pubDate>
       
@@ -59,38 +60,38 @@
       <description>
         
         
-        &lt;h3&gt;&lt;strong&gt;Next-Gen NOx Sensors: Driving Future Emissions Compliance and Durability&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;next-gen-nox-sensors-driving-future-emissions-compliance-and-durability&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#next-gen-nox-sensors-driving-future-emissions-compliance-and-durability&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;As global emissions standards continue their relentless march toward near-zero emissions (Euro VII, CARB 2027), the demands placed on NOx sensor technology are intensifying. The future of NOx sensing is defined by two core principles: &lt;strong&gt;unprecedented durability&lt;/strong&gt; and &lt;strong&gt;enhanced accuracy at lower concentrations&lt;/strong&gt;.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;1. The Challenge of Future Durability Requirements&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-the-challenge-of-future-durability-requirements&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-the-challenge-of-future-durability-requirements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Future heavy-duty and commercial vehicle regulations mandate significantly extended service life for emissions components.&lt;/p&gt;
+        &lt;h3&gt;&lt;strong&gt;Naujos kartos NOx jutikliai: ateities emisijų reikalavimų laikymasis ir ilgaamžiškumas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;naujos-kartos-nox-jutikliai-ateities-emisijų-reikalavimų-laikymasis-ir-ilgaamžiškumas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#naujos-kartos-nox-jutikliai-ateities-emisij%c5%b3-reikalavim%c5%b3-laikymasis-ir-ilgaam%c5%bei%c5%a1kumas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Kadangi pasauliniai išmetamųjų teršalų standartai toliau nenumaldomai žengia link beveik nulinės taršos (Euro VII, CARB 2027), reikalavimai, keliami NOx jutiklių technologijai, intensyvėja. NOx jutiklių ateitį apibrėžia du pagrindiniai principai: &lt;strong&gt;precedento neturintis ilgaamžiškumas&lt;/strong&gt; ir &lt;strong&gt;padidintas tikslumas esant mažesnėms koncentracijoms&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;1. Ateities ilgaamžiškumo reikalavimų iššūkis&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-ateities-ilgaamžiškumo-reikalavimų-iššūkis&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-ateities-ilgaam%c5%bei%c5%a1kumo-reikalavim%c5%b3-i%c5%a1%c5%a1%c5%abkis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Ateities sunkiasvorių ir komercinių transporto priemonių reglamentai numato žymiai ilgesnį išmetamųjų teršalų komponentų tarnavimo laiką.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Extended Milage:&lt;/strong&gt; Regulations like CARB 2027 are pushing the expected useful life of NOx sensors toward &lt;strong&gt;850,000 miles (1,360,000 km) and 18 years&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Our Design Response:&lt;/strong&gt; To meet these stringent demands, our Research and Development is focused on:
+&lt;li&gt;&lt;strong&gt;Ilgas ridos laikas:&lt;/strong&gt; Reglamentai, tokie kaip CARB 2027, stumia numatomą NOx jutiklių naudingo tarnavimo laiką link &lt;strong&gt;850 000 mylių (1 360 000 km) ir 18 metų&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mūsų dizaino atsakas:&lt;/strong&gt; Siekdami atitikti šiuos griežtus reikalavimus, mūsų Tyrimai ir plėtra (R&amp;amp;D) yra sutelkta į:
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Advanced Material Science:&lt;/strong&gt; Utilizing next-generation YSZ ceramics and novel electrode formulations that offer superior resistance to chemical poisoning (sulphur, phosphorous) and thermal degradation.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Improved Thermal Management:&lt;/strong&gt; Implementing smarter heater control algorithms that minimize thermal shock during cold starts and optimize operating temperature consistency, directly combating the primary causes of physical degradation and signal drift.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pažangi medžiagų mokslas:&lt;/strong&gt; Naudojant naujos kartos YSZ keramiką ir naujas elektrodų formules, kurios pasižymi puikiu atsparumu cheminiam nuodijimui (siera, fosforu) ir terminiam skilimui.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Patobulintas šilumos valdymas:&lt;/strong&gt; Įdiegiant išmanesnius šildytuvo valdymo algoritmus, kurie sumažina terminį šoką šalto paleidimo metu ir optimizuoja darbinės temperatūros pastovumą, tiesiogiai kovojant su pagrindinėmis fizinio skilimo ir signalo dreifo priežastimis.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;2. Enhanced Accuracy at Lower NOx Levels&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-enhanced-accuracy-at-lower-nox-levels&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-enhanced-accuracy-at-lower-nox-levels&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Meeting future ultra-low NOx targets requires sensors that can precisely measure concentrations close to 0 ppm over the entire vehicle duty cycle.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;2. Patobulintas tikslumas esant mažesniam NOx lygiui&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-patobulintas-tikslumas-esant-mažesniam-nox-lygiui&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-patobulintas-tikslumas-esant-ma%c5%beesniam-nox-lygiui&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Norint pasiekti ateities ypač mažo NOx kiekio tikslus, reikia jutiklių, kurie gali tiksliai išmatuoti koncentracijas, artimas 0 ppm, per visą transporto priemonės darbo ciklą.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Technical Focus:&lt;/strong&gt; Traditional sensors can lose accuracy at very low concentrations. We are investing in sensor designs that feature improved signal-to-noise ratios and optimized cell geometry to maintain high sensitivity and stability even when the NOx reduction efficiency of the SCR system is near &lt;strong&gt;99%&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Benefit:&lt;/strong&gt; High accuracy at low levels enables the ECU to maintain tighter DEF control, ensuring compliance without causing Ammonia Slip—a critical balance for future systems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Techninis dėmesys:&lt;/strong&gt; Tradiciniai jutikliai gali prarasti tikslumą esant labai mažoms koncentracijoms. Investuojame į jutiklių konstrukcijas, kurios pasižymi pagerintais signalo ir triukšmo santykiais bei optimizuota ląstelių geometrija, kad išlaikytų didelį jautrumą ir stabilumą, net kai SCR sistemos NOx redukcijos efektyvumas yra beveik &lt;strong&gt;99%&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nauda:&lt;/strong&gt; Didelis tikslumas esant žemam lygiui leidžia ECU palaikyti griežtesnį DEF (Dyzelino išmetamųjų teršalų skysčio) valdymą, užtikrinant atitiktį, nesukeliant amoniako slydimo – kritinis balansas ateities sistemoms.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;3. Miniaturization and Integration (Simplified Service)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-miniaturization-and-integration-simplified-service&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-miniaturization-and-integration-simplified-service&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The trend in emissions aftertreatment is toward more compact, single-module systems. NOx sensor technology must follow suit.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;3. Miniatiūrizavimas ir integravimas (supaprastinta priežiūra)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-miniatiūrizavimas-ir-integravimas-supaprastinta-priežiūra&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-miniati%c5%abrizavimas-ir-integravimas-supaprastinta-prie%c5%bei%c5%abra&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Išmetamųjų teršalų apdorojimo tendencija yra kompaktiškesnės, vieno modulio sistemos. NOx jutiklių technologija turi sekti šia tendencija.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Design Trend:&lt;/strong&gt; Developing smaller, lighter sensor probes and control modules that are easier to package within tight engine bay constraints and integrated SCR units (One-Box Systems).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Service Advantage:&lt;/strong&gt; Miniaturized, modular designs can simplify installation and replacement procedures, reducing maintenance complexity and cost for fleet operators. Our focus is on plug-and-play reliability with certified CAN communication integrity, guaranteeing compatibility across a wide range of vehicle platforms.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dizaino tendencija:&lt;/strong&gt; Kuriami mažesni, lengvesni jutiklių zondai ir valdymo moduliai, kuriuos lengviau supakuoti siaurose variklio skyriaus erdvėse ir integruotuose SCR blokuose (vienos dėžės sistemos).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Priežiūros pranašumas:&lt;/strong&gt; Miniatiūrizuotas, modulinis dizainas gali supaprastinti montavimo ir keitimo procedūras, sumažinant priežiūros sudėtingumą ir išlaidas transporto priemonių parkų operatoriams. Mūsų dėmesys skiriamas „plug-and-play“ patikimumui su sertifikuotu CAN ryšio vientisumu, garantuojančiu suderinamumą įvairiose transporto priemonių platformose.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;By anticipating these technological shifts and regulatory pressures, we are committed to providing NOx sensors that are not only compliant today but are engineered for the challenges of tomorrow.&lt;/p&gt;
+&lt;p&gt;Numatydami šiuos technologinius pokyčius ir reguliavimo spaudimą, esame įsipareigoję tiekti NOx jutiklius, kurie ne tik atitinka šiandieninius reikalavimus, bet ir yra sukurti ateities iššūkiams.&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Understanding and Mitigating  NOx Sensor Signal Drift</title>
+      <title>Supratimas ir Sumažinimas NOx Jutiklių Signalo Dreifo</title>
       <link>http://localhost:1313/blog/NOx-Sensor-Signal-drift/</link>
       <pubDate>Sat, 02 Nov 2024 00:35:28 +0800</pubDate>
       
@@ -98,74 +99,73 @@
       <description>
         
         
-        &lt;hr&gt;
-&lt;h2&gt;&lt;strong&gt;Introduction: The Critical Role of NOx Sensors&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;introduction-the-critical-role-of-nox-sensors&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#introduction-the-critical-role-of-nox-sensors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NOx (Nitrogen Oxide) sensors are indispensable components in modern diesel Aftertreatment Systems (ATS), especially those utilizing Selective Catalytic Reduction (SCR) technology. These sensors, typically deployed both upstream and downstream of the SCR catalyst, provide the Electronic Control Unit (ECU) with real-time feedback on NOx levels. This data is the foundation for precisely controlling DEF (Diesel Exhaust Fluid, or Urea) injection, ensuring optimal NOx conversion efficiency and regulatory compliance (e.g., EPA, Euro VI).&lt;/p&gt;
-&lt;p&gt;However, the harsh exhaust environment inevitably subjects NOx sensors to degradation, with &lt;strong&gt;Signal Drift&lt;/strong&gt; being one of the most insidious forms of failure.&lt;/p&gt;
-&lt;h2&gt;&lt;strong&gt;What is NOx Sensor Signal Drift?&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-nox-sensor-signal-drift&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#what-is-nox-sensor-signal-drift&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Signal drift is defined as a &lt;strong&gt;slow, progressive change&lt;/strong&gt; in the sensor&amp;rsquo;s output reading over time, despite the actual NOx concentration remaining constant. Unlike a sudden, catastrophic failure that triggers an immediate fault code, drift is a creeping inaccuracy that gradually pushes the sensor reading outside its calibrated parameters.&lt;/p&gt;
-&lt;p&gt;This degradation manifests primarily in two ways:&lt;/p&gt;
+        &lt;h2&gt;&lt;strong&gt;Įvadas: Kritinis NOx Jutiklių Vaidmuo&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;įvadas-kritinis-nox-jutiklių-vaidmuo&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%c4%afvadas-kritinis-nox-jutikli%c5%b3-vaidmuo&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NOx (Azoto Oksido) jutikliai yra nepakeičiami komponentai šiuolaikinėse dyzelino Išmetamųjų Teršalų Apdorojimo Sistemose (ATS), ypač tose, kurios naudoja Selektyvinės Katalitinės Redukcijos (SCR) technologiją. Šie jutikliai, paprastai išdėstyti tiek prieš srovę, tiek už srovės nuo SCR katalizatoriaus, teikia Elektroniniam Valdymo Blokui (ECU) realaus laiko grįžtamąjį ryšį apie NOx lygius. Šie duomenys yra pagrindas tiksliai kontroliuojant DEF (Dyzelino Išmetamųjų Dujų Skystis, arba Karbamidas) įpurškimą, užtikrinant optimalų NOx konversijos efektyvumą ir reguliavimo atitiktį (pvz., EPA, Euro VI).&lt;/p&gt;
+&lt;p&gt;Tačiau atšiauri išmetamųjų dujų aplinka neišvengiamai paveikia NOx jutiklius, o &lt;strong&gt;Signalo Dreifas&lt;/strong&gt; yra viena iš klastingiausių gedimo formų.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Kas yra NOx Jutiklio Signalo Dreifas?&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kas-yra-nox-jutiklio-signalo-dreifas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kas-yra-nox-jutiklio-signalo-dreifas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Signalo dreifas apibrėžiamas kaip &lt;strong&gt;lėtas, laipsniškas pokytis&lt;/strong&gt; jutiklio išvesties rodmenyje laikui bėgant, nepaisant to, kad faktinė NOx koncentracija lieka pastovi. Skirtingai nuo staigaus, katastrofiško gedimo, kuris sukelia neatidėliotiną gedimo kodą, dreifas yra šliaužianti netikslumo forma, kuri palaipsniui išstumia jutiklio rodmenis už jo kalibruotų parametrų ribų.&lt;/p&gt;
+&lt;p&gt;Ši degradacija pasireiškia dviem pagrindiniais būdais:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Offset Drift (Zero-Point Drift):&lt;/strong&gt; The sensor output shifts higher or lower when the actual NOx concentration is zero (e.g., in clean air or during a calibration check).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gain Drift (Sensitivity Drift):&lt;/strong&gt; The sensor&amp;rsquo;s response to a change in NOx concentration becomes weaker or stronger than it should be, affecting the accuracy of high-concentration readings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Poslinkio Dreifas (Nulinio Taško Dreifas):&lt;/strong&gt; Jutiklio išvestis pasislenka aukštyn arba žemyn, kai faktinė NOx koncentracija yra nulis (pvz., švariame ore arba kalibravimo patikrinimo metu).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jautrumo Dreifas (Jautrumo Dreifas):&lt;/strong&gt; Jutiklio atsakas į NOx koncentracijos pokytį tampa silpnesnis arba stipresnis, nei turėtų būti, turėdamas įtakos aukštos koncentracijos rodmenų tikslumui.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;&lt;strong&gt;Primary Causes of Signal Drift in Harsh Environments&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;primary-causes-of-signal-drift-in-harsh-environments&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#primary-causes-of-signal-drift-in-harsh-environments&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The extreme operational conditions of the exhaust system are the root cause of long-term signal drift:&lt;/p&gt;
-&lt;h3&gt;1. &lt;strong&gt;Chemical Contamination and Poisoning&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-chemical-contamination-and-poisoning&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-chemical-contamination-and-poisoning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The most significant factor. The electro-chemical sensing elements within the probe (often made of &lt;strong&gt;Yttria-Stabilized Zirconia (YSZ)&lt;/strong&gt; ceramic) are highly susceptible to chemical exposure:&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Pagrindinės Signalo Dreifo Priežastys Atšiauriose Aplinkose&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pagrindinės-signalo-dreifo-priežastys-atšiauriose-aplinkose&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pagrindin%c4%97s-signalo-dreifo-prie%c5%beastys-at%c5%a1iauriose-aplinkose&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ekstremalios eksploatavimo sąlygos išmetimo sistemoje yra ilgalaikio signalo dreifo pagrindinė priežastis:&lt;/p&gt;
+&lt;h3&gt;1. &lt;strong&gt;Cheminis Užteršimas ir Apsinuodijimas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-cheminis-užteršimas-ir-apsinuodijimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-cheminis-u%c5%beter%c5%a1imas-ir-apsinuodijimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Svarbiausias veiksnys. Elektrocheminiai jutimo elementai zonduje (dažnai pagaminti iš &lt;strong&gt;Itrio Stabilizuotos Cirkonio Oksido (YSZ)&lt;/strong&gt; keramikos) yra labai jautrūs cheminiam poveikiui:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Soot and Ash:&lt;/strong&gt; Short-distance driving, high oil consumption, or engine misfires lead to soot coating the sensor head, blocking gas diffusion paths and interfering with the electrochemical reaction.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sulphur and Phosphorous:&lt;/strong&gt; Contaminants from fuel or lubricating oil can chemically &amp;ldquo;poison&amp;rdquo; the electrode surface, leading to irreversible loss of sensitivity over time.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DEF Residue (AdBlue registered  Crystallization):&lt;/strong&gt; Faulty DEF dosing or poor quality DEF can lead to urea crystallization (&lt;strong&gt;AdBlue Crystals&lt;/strong&gt;) and &lt;strong&gt;Ammonia Slip&lt;/strong&gt; (NH3) which deposits on the sensor, severely altering its calibration. Ammonia Slip is a particularly tricky issue, as NOx sensors are cross-sensitive to NH3, directly causing signal error.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Suodžiai ir Pelenai:&lt;/strong&gt; Trumpo atstumo važiavimas, didelis alyvos suvartojimas arba variklio uždegimo sutrikimai sukelia suodžių dangą ant jutiklio galvutės, blokuodami dujų difuzijos kelius ir trukdydami elektrocheminei reakcijai.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Siera ir Fosforas:&lt;/strong&gt; Teršalai iš kuro ar tepalinės alyvos gali chemiškai „apnuodyti“ elektrodo paviršių, sukeliant negrįžtamą jautrumo praradimą laikui bėgant.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DEF Likučiai (AdBlue registruota Kristalizacija):&lt;/strong&gt; Sugedęs DEF dozavimas arba prastos kokybės DEF gali sukelti karbamido kristalizaciją (&lt;strong&gt;AdBlue Kristalai&lt;/strong&gt;) ir &lt;strong&gt;Ammonijos Slydimą&lt;/strong&gt; (NH3), kuris nusėda ant jutiklio, smarkiai pakeisdamas jo kalibravimą. Amoniako slydimas yra ypač sudėtinga problema, nes NOx jutikliai yra kryžmiškai jautrūs NH3, tiesiogiai sukeldami signalo klaidą.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;2. &lt;strong&gt;Thermal and Hydrothermal Aging&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-thermal-and-hydrothermal-aging&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-thermal-and-hydrothermal-aging&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx sensors operate at extremely high temperatures (up to 800$^{\circ}$C) to function correctly and to self-clean soot.&lt;/p&gt;
+&lt;h3&gt;2. &lt;strong&gt;Terminis ir Hidroterminis Senėjimas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-terminis-ir-hidroterminis-senėjimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-terminis-ir-hidroterminis-sen%c4%97jimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx jutikliai veikia esant itin aukštai temperatūrai (iki 800 laipsnių Celsijaus), kad tinkamai veiktų ir savaime išsivalytų nuo suodžių.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Thermal Cycling:&lt;/strong&gt; Constant heating and cooling during vehicle operation cause materials (ceramics, metal housing, electrodes) to expand and contract at different rates, leading to internal mechanical stress and micro-cracks in the sensing element, resulting in offset drift.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sensor Aging:&lt;/strong&gt; Over extended use, the ceramic material and electrode layers naturally age, leading to a gradual and inevitable decrease in their electrochemical stability and response rate.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Terminis Ciklas:&lt;/strong&gt; Nuolatinis šildymas ir aušinimas automobilio eksploatacijos metu sukelia medžiagų (keramikos, metalinio korpuso, elektrodų) plėtimąsi ir susitraukimą skirtingais tempais, sukeliant vidinį mechaninį įtempimą ir mikroįtrūkimus jutimo elemente, dėl ko atsiranda poslinkio dreifas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jutiklio Senėjimas:&lt;/strong&gt; Ilgiau naudojant, keraminė medžiaga ir elektrodų sluoksniai natūraliai sensta, sukeliant laipsnišką ir neišvengiamą jų elektrocheminio stabilumo ir atsako greičio sumažėjimą.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;3. &lt;strong&gt;Electrical and Component Degradation&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-electrical-and-component-degradation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-electrical-and-component-degradation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Heater Circuit Degradation:&lt;/strong&gt; The internal heater is vital for maintaining the sensor&amp;rsquo;s operating temperature. Degradation of the heater element or its control circuit can lead to inconsistent operating temperatures, directly affecting the signal output stability.&lt;/li&gt;
+&lt;h3&gt;3. &lt;strong&gt;Elektrinė ir Komponentų Degradacija&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-elektrinė-ir-komponentų-degradacija&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-elektrin%c4%97-ir-komponent%c5%b3-degradacija&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Šildytuvo Grandinės Degradacija:&lt;/strong&gt; Vidinis šildytuvas yra gyvybiškai svarbus palaikant jutiklio darbinę temperatūrą. Šildytuvo elemento ar jo valdymo grandinės degradacija gali sukelti nenuoseklias darbines temperatūras, tiesiogiai paveikdama signalo išvesties stabilumą.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;&lt;strong&gt;Impact on Vehicle Performance and Compliance&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;impact-on-vehicle-performance-and-compliance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#impact-on-vehicle-performance-and-compliance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Signal drift is often a &amp;ldquo;silent killer&amp;rdquo; of the SCR system efficiency:&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Poveikis Automobilio Veikimui ir Atitikčiai&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;poveikis-automobilio-veikimui-ir-atitikčiai&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#poveikis-automobilio-veikimui-ir-atitik%c4%8diai&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Signalo dreifas dažnai yra „tylus žudikas“ SCR sistemos efektyvumui:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Drift Impact&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Resulting Vehicle Issue&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Compliance Risk&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Dreifo Poveikis&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Kylanti Automobilio Problema&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Atitikties Rizika&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Inaccurate NOx Feedback&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;The ECU uses incorrect NOx values for DEF dosing calculation.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Excess NOx Emissions:&lt;/strong&gt; The vehicle may fail OBD checks or PEMS (Real Driving Emissions) tests, risking non-compliance.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Netikslus NOx Grįžtamasis Ryšys&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ECU naudoja neteisingas NOx vertes DEF dozavimo skaičiavimui.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;NOx Teršalų Perteklius:&lt;/strong&gt; Automobilis gali neišlaikyti OBD patikrinimų arba PEMS (Realių Vairavimo Teršalų) bandymų, rizikuojant neatitikimu.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Over/Under DEF Dosing&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Over-Dosing:&lt;/strong&gt; Leads to Ammonia Slip (wasted DEF, odor) and potential downstream DEF crystallization blockage. &lt;strong&gt;Under-Dosing:&lt;/strong&gt; Leads to insufficient NOx reduction.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Limp Mode (Power De-rating):&lt;/strong&gt; The vehicle enters a low-power mode to protect the emissions system and enforce compliance.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Per/Nepakankamas DEF Dozavimas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Perdozavimas:&lt;/strong&gt; Sukelia Amoniako Slydimą (iššvaistytas DEF, kvapas) ir galimą pasrovinį DEF kristalizacijos užsikimšimą. &lt;strong&gt;Nepakankamas Dozavimas:&lt;/strong&gt; Sukelia nepakankamą NOx sumažinimą.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Avarinis Režimas (Galia Sumažinta):&lt;/strong&gt; Automobilis pereina į mažos galios režimą, kad apsaugotų emisijos sistemą ir užtikrintų atitiktį.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Slow Response Time&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;The sensor&amp;rsquo;s ability to react quickly to engine load changes is impaired, causing control lag.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Poor real-time SCR control during transient driving cycles.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Lėtas Atsako Laikas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jutiklio gebėjimas greitai reaguoti į variklio apkrovos pokyčius yra sutrikęs, sukeliant valdymo vėlavimą.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Prastas realaus laiko SCR valdymas pereinamųjų važiavimo ciklų metu.&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2&gt;&lt;strong&gt;The Professional Solution: Quality, Calibration, and Validation&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-professional-solution-quality-calibration-and-validation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-professional-solution-quality-calibration-and-validation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To counter the detrimental effects of signal drift, our NOx sensor products are engineered and tested to the highest standards:&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Profesionalus Sprendimas: Kokybė, Kalibravimas ir Patvirtinimas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;profesionalus-sprendimas-kokybė-kalibravimas-ir-patvirtinimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#profesionalus-sprendimas-kokyb%c4%97-kalibravimas-ir-patvirtinimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Norint atremti žalingą signalo dreifo poveikį, mūsų NOx jutiklių produktai yra suprojektuoti ir išbandyti pagal aukščiausius standartus:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;High-Grade Sensing Element:&lt;/strong&gt; We utilize advanced &lt;strong&gt;Zirconia-based ceramic components&lt;/strong&gt; with enhanced anti-poisoning properties to maximize resistance against sulphur and soot accumulation, preserving initial calibration for longer.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Precise Factory Calibration:&lt;/strong&gt; Every sensor undergoes a multi-point calibration process using certified NO and NOx gas mixtures across a range of temperatures, ensuring the signal is accurate and stable from 0 ppm to full scale.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;OEM-Grade Heater Control Logic:&lt;/strong&gt; Our sensors feature a robust heater circuit and ECU-compatible control logic to rapidly reach and maintain the optimum operating temperature, minimizing thermal shock and ensuring quick, stable readings even during cold starts.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CAN Communication Integrity:&lt;/strong&gt; We verify the sensor&amp;rsquo;s CAN communication protocol is 100% compatible with the target ECU to ensure the drift-monitoring algorithms within the vehicle&amp;rsquo;s onboard diagnostics (OBD) system can accurately assess and flag degradation before performance is critically affected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aukštos Kokybės Jutimo Elementas:&lt;/strong&gt; Mes naudojame pažangius &lt;strong&gt;Cirkonio oksido pagrindu pagamintus keraminius komponentus&lt;/strong&gt; su patobulintomis anti-apsinuodijimo savybėmis, kad maksimaliai padidintume atsparumą sieros ir suodžių kaupimuisi, ilgiau išlaikydami pradinį kalibravimą.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tikslus Gamyklos Kalibravimas:&lt;/strong&gt; Kiekvienas jutiklis atlieka daugiataškį kalibravimo procesą, naudojant sertifikuotus NO ir NOx dujų mišinius įvairiose temperatūrose, užtikrinant, kad signalas būtų tikslus ir stabilus nuo 0 ppm iki pilnos skalės.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OEM Klasės Šildytuvo Valdymo Logika:&lt;/strong&gt; Mūsų jutikliai turi tvirtą šildytuvo grandinę ir su ECU suderinamą valdymo logiką, kad greitai pasiektų ir palaikytų optimalią darbinę temperatūrą, sumažinant šiluminį šoką ir užtikrinant greitus, stabilius rodmenis net šalto paleidimo metu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CAN Komunikacijos Integritetas:&lt;/strong&gt; Mes patikriname, ar jutiklio CAN komunikacijos protokolas yra 100% suderinamas su tiksliniu ECU, kad užtikrintume, jog dreifo stebėjimo algoritmai transporto priemonės borto diagnostikos (OBD) sistemoje gali tiksliai įvertinti ir pažymėti degradaciją, kol našumas nėra kritiškai paveiktas.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Need assistance in diagnosing NOx sensor signal drift?&lt;/strong&gt; Our technical support team specializes in advanced SCR diagnostics to help you maintain fleet efficiency and emissions compliance. Would you like to consult our diagnostic guides for common NOx fault codes?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reikia pagalbos diagnozuojant NOx jutiklio signalo dreifą?&lt;/strong&gt; Mūsų techninės pagalbos komanda specializuojasi pažangioje SCR diagnostikoje, kad padėtų jums išlaikyti parko efektyvumą ir emisijos atitiktį. Ar norėtumėte peržiūrėti mūsų diagnostikos vadovus bendriems NOx gedimo kodams?&lt;/p&gt;
 
       </description>
     </item>
@@ -228,14 +228,12 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Įvaldydamos šių realiojo laiko duomenų srautų interpretavimą, techninės priežiūros komandos gali tiksliai nustatyti išmetamųjų teršalų gedimų pagrindinę priežastį, drastiškai sumažindamos prastovos laiką ir užkirsdamos kelią nereikalingam komponentų keitimui.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Ar norėtumėte, kad patikrinčiau bet kurį konkretų terminą, susijusį su „NOx“ jutikliais ar SCR sistemomis, lietuvių kalba?&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Maintenance Tips to Protect Your NOx Sensors</title>
+      <title>Priežiūros patarimai, kaip apsaugoti jūsų NOx jutiklius</title>
       <link>http://localhost:1313/blog/NOx-Sensor-Maintenance/</link>
       <pubDate>Mon, 28 Oct 2024 00:35:28 +0800</pubDate>
       
@@ -243,34 +241,33 @@
       <description>
         
         
-        &lt;p&gt;NOx Sensor Maintenance: Simple Tips for Maximum Lifespan&lt;/p&gt;
-&lt;p&gt;The NOx sensor, positioned in the high-heat, chemically active exhaust stream, is one of the most challenged components in the Selective Catalytic Reduction (SCR) system. While wear is inevitable, proactive maintenance can significantly extend its lifespan, ensuring compliance and maximizing uptime.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;1. Prioritize DEF Quality and Dosing System Health&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-prioritize-def-quality-and-dosing-system-health&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-prioritize-def-quality-and-dosing-system-health&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The single largest external factor in NOx sensor failure is contamination from poor Diesel Exhaust Fluid (DEF) quality or a faulty dosing system.&lt;/p&gt;
+        &lt;p&gt;NOx jutiklių priežiūra: paprasti patarimai maksimaliam tarnavimo laikui&lt;/p&gt;
+&lt;p&gt;NOx jutiklis, esantis išmetamųjų dujų sraute, kuriame vyrauja didelė šiluma ir cheminis aktyvumas, yra vienas labiausiai pažeidžiamų komponentų selektyvinio katalizinio redukcijos (SCR) sistemoje. Nors nusidėvėjimas yra neišvengiamas, aktyvi priežiūra gali žymiai prailginti jo tarnavimo laiką, užtikrinant atitikimą reikalavimams ir maksimalų darbo laiką.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;1. Teikite pirmenybę DEF kokybei ir dozavimo sistemos būklei&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-teikite-pirmenybę-def-kokybei-ir-dozavimo-sistemos-būklei&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-teikite-pirmenyb%c4%99-def-kokybei-ir-dozavimo-sistemos-b%c5%abklei&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Didžiausias išorinis veiksnys, lemiantis NOx jutiklio gedimą, yra užteršimas dėl prastos dyzelino išmetamųjų teršalų skysčio (DEF) kokybės arba sugedusios dozavimo sistemos.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;DEF Quality:&lt;/strong&gt; Always use certified DEF that adheres to ISO 22241 standards. Sub-par DEF can contain trace minerals that lead to catalyst poisoning and heavy residue buildup on the sensor probe.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Prevent Crystallization:&lt;/strong&gt; A leaking or clogged DEF injector causes urea to crystallize heavily within the mixing tube and on the upstream NOx sensor probe. Ensure the DEF dosing pump and injector are functioning correctly and that the system performs its post-shutdown purging sequence to clear lines.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DEF kokybė:&lt;/strong&gt; Visada naudokite sertifikuotą DEF, atitinkantį ISO 22241 standartus. Prastesnis DEF gali turėti mikroelementų, kurie sukelia katalizatoriaus apsinuodijimą ir didelį likučių susidarymą ant jutiklio zondo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kristalizacijos prevencija:&lt;/strong&gt; Nesandarus arba užsikimšęs DEF purkštukas sukelia didelę karbamido kristalizaciją maišymo vamzdyje ir ant prieš srovę esančio NOx jutiklio zondo. Užtikrinkite, kad DEF dozavimo siurblys ir purkštukas veiktų tinkamai ir kad sistema atliktų išvalymo seką po išjungimo, kad išvalytų linijas.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;2. Manage Engine Combustion Health&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-manage-engine-combustion-health&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-manage-engine-combustion-health&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Combustion issues directly translate to sensor contamination.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;2. Valdykite variklio degimo būklę&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-valdykite-variklio-degimo-būklę&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-valdykite-variklio-degimo-b%c5%abkl%c4%99&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Degimo problemos tiesiogiai lemia jutiklio užteršimą.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Reduce Soot Load:&lt;/strong&gt; Excessive soot is highly abrasive and coats the sensor, blocking the electrochemical cell and causing signal errors. Soot buildup is often tied to engine issues such as failing injectors, incorrect Air-Fuel Ratio (AFR), or high oil consumption.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Address High Oil Consumption:&lt;/strong&gt; Engine oil contains phosphorus and other compounds that, when burned and carried into the exhaust, act as severe chemical poisons to the sensor&amp;rsquo;s platinum electrode, irreversibly degrading its performance. Rectify the root cause of oil consumption immediately.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sumažinkite suodžių apkrovą:&lt;/strong&gt; Per didelis suodžių kiekis yra labai abrazyvus ir padengia jutiklį, užblokuodamas elektrocheminį elementą ir sukeldamas signalo klaidas. Suodžių susidarymas dažnai siejamas su variklio problemomis, tokiomis kaip gendančiais purkštukais, neteisingu oro ir kuro santykiu (AFR) arba dideliu alyvos suvartojimu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spręskite didelio alyvos suvartojimo problemą:&lt;/strong&gt; Variklio alyva turi fosforo ir kitų junginių, kurie, sudegę ir patekę į išmetamąsias dujas, veikia kaip stiprūs cheminiai nuodai jutiklio platinos elektrodui, negrįžtamai pablogindami jo veikimą. Nedelsdami pašalinkite pagrindinę alyvos suvartojimo priežastį.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;3. Inspect the Exhaust System for Leaks&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-inspect-the-exhaust-system-for-leaks&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-inspect-the-exhaust-system-for-leaks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Any leak in the exhaust system, particularly between the engine and the NOx sensors, can compromise readings.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;3. Patikrinkite, ar išmetimo sistemoje nėra nuotėkių&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-patikrinkite-ar-išmetimo-sistemoje-nėra-nuotėkių&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-patikrinkite-ar-i%c5%a1metimo-sistemoje-n%c4%97ra-nuot%c4%97ki%c5%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Bet koks nuotėkis išmetimo sistemoje, ypač tarp variklio ir NOx jutiklių, gali pakenkti rodmenims.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;False Readings:&lt;/strong&gt; An exhaust leak introduces ambient air (Oxygen) into the stream, leading to inaccurate NOx readings. Since NOx sensors also measure Oxygen, this will confuse the ECU and lead to incorrect DEF dosing.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Inspection Tip:&lt;/strong&gt; Regularly check all exhaust clamps, gaskets, and pipes for signs of soot residue, which indicates a leak.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Klaidingi rodmenys:&lt;/strong&gt; Išmetamųjų dujų nuotėkis į srautą patenka aplinkos oru (deguonimi), todėl NOx rodmenys tampa netikslūs. Kadangi NOx jutikliai taip pat matuoja deguonį, tai suklaidins ECU ir sukels neteisingą DEF dozavimą.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Patikrinimo patarimas:&lt;/strong&gt; Reguliariai tikrinkite visas išmetimo sistemos apkabas, tarpiklius ir vamzdžius, ar nėra suodžių likučių, kurie rodo nuotėkį.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;4. Electrical and Physical Integrity Checks&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-electrical-and-physical-integrity-checks&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#4-electrical-and-physical-integrity-checks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The control module and wiring are crucial, especially on commercial vehicles exposed to road debris and vibration.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;4. Elektrinis ir fizinis vientisumo patikrinimas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-elektrinis-ir-fizinis-vientisumo-patikrinimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-elektrinis-ir-fizinis-vientisumo-patikrinimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Valdymo modulis ir laidai yra labai svarbūs, ypač komercinėse transporto priemonėse, veikiančiose kelių šiukšlių ir vibracijos sąlygomis.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Wiring Harness:&lt;/strong&gt; Inspect the wiring and connectors for abrasion, heat damage, or corrosion. The CAN communication line is sensitive; compromised wiring can lead to intermittent signal loss.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sensor Installation:&lt;/strong&gt; Ensure the replacement sensor is torqued correctly. Over-torquing can crack the ceramic element, while under-torquing can cause exhaust leaks. &lt;strong&gt;Never use copper or anti-seize paste on the sensor thread&lt;/strong&gt;, as this can contaminate the sensor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Laidų pynė:&lt;/strong&gt; Patikrinkite laidus ir jungtis, ar nėra nutrūkimų, karščio pažeidimų ar korozijos. CAN ryšio linija yra jautri; pažeisti laidai gali sukelti periodinį signalo praradimą.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jutiklio montavimas:&lt;/strong&gt; Užtikrinkite, kad pakaitinis jutiklis būtų priveržtas tinkamai. Per didelis priveržimas gali įskelti keraminį elementą, o per mažas priveržimas gali sukelti išmetamųjų dujų nuotėkį. &lt;strong&gt;Niekada nenaudokite vario ar lipnumą mažinančios pastos ant jutiklio sriegio&lt;/strong&gt;, nes tai gali užteršti jutiklį.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;By adhering to these simple, proactive maintenance practices, fleet operators can significantly improve SCR system reliability and avoid costly sensor replacements.&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;Laikydamiesi šių paprastų, aktyvių priežiūros praktikų, laivyno operatoriai gali žymiai pagerinti SCR sistemos patikimumą ir išvengti brangių jutiklių keitimų.&lt;/p&gt;
 
       </description>
     </item>
@@ -310,7 +307,7 @@
     </item>
     
     <item>
-      <title>The Critical Role of the Heater Circuit in NOx Sensor Performance</title>
+      <title>Šildytuvo grandinės esminis vaidmuo NOx jutiklio veikime</title>
       <link>http://localhost:1313/blog/The-Critical-Role-of-the-Heater-Circuit-in-NOx-Sensor-Performance/</link>
       <pubDate>Thu, 01 Feb 2024 00:35:28 +0800</pubDate>
       
@@ -318,48 +315,49 @@
       <description>
         
         
-        &lt;p&gt;The NOx sensor is an advanced electrochemical device that operates under a fundamental requirement: &lt;strong&gt;high temperature&lt;/strong&gt;. The sensor&amp;rsquo;s complex zirconia-based sensing cells require sustained temperatures between 700 degrees Celsius and 800 degrees Celsius to function correctly. This is achieved via a dedicated, integrated heater circuit. When this circuit fails, the sensor is rendered useless, regardless of its physical condition.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;The Dual Function of the Internal Heater&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-dual-function-of-the-internal-heater&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-dual-function-of-the-internal-heater&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The heater is arguably the most stressed component within the NOx sensor, performing two vital roles:&lt;/p&gt;
+        &lt;h2&gt;Pagrindinis Šildytuvo Grandinės Vaidmuo NOx Jutiklio Veikime&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pagrindinis-šildytuvo-grandinės-vaidmuo-nox-jutiklio-veikime&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pagrindinis-%c5%a1ildytuvo-grandin%c4%97s-vaidmuo-nox-jutiklio-veikime&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;NOx jutiklis yra pažangus elektrocheminis prietaisas, veikiantis esant fundamentaliam reikalavimui: &lt;strong&gt;aukštai temperatūrai&lt;/strong&gt;. Sudėtingoms jutiklio cirkonio pagrindo jutimo celėms reikia palaikomos temperatūros tarp 700 laipsnių Celsijaus ir 800 laipsnių Celsijaus, kad jos veiktų tinkamai. Tai pasiekiama naudojant specialią, integruotą šildytuvo grandinę. Kai ši grandinė sugenda, jutiklis tampa nenaudingas, nepaisant jo fizinės būklės.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Vidinio Šildytuvo Dviguba Funkcija&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vidinio-šildytuvo-dviguba-funkcija&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vidinio-%c5%a1ildytuvo-dviguba-funkcija&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Šildytuvas, be abejonės, yra labiausiai apkrautas komponentas NOx jutiklyje, atliekantis du gyvybiškai svarbius vaidmenis:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Enabling Measurement:&lt;/strong&gt; At lower exhaust gas temperatures (e.g., during startup or low-load operation), the heater quickly brings the ceramic cell up to the required operating temperature. Without this temperature, the oxygen ion mobility, which drives the electrochemical NOx measurement, is insufficient.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Self-Cleaning (De-Sooting):&lt;/strong&gt; The high temperature maintained by the heater is essential for burning off accumulated soot and moisture. This self-cleaning function is necessary to prevent fouling and signal blockage, which are primary causes of signal drift.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Matavimo Įjungimas:&lt;/strong&gt; Esant žemesnei išmetamųjų dujų temperatūrai (pvz., paleidimo metu ar esant mažai apkrovai), šildytuvas greitai pakelia keraminę celę iki reikiamos darbinės temperatūros. Be šios temperatūros deguonies jonų judrumas, kuris yra elektrocheminio NOx matavimo variklis, yra nepakankamas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Savaiminis Valymas (Suodžių Šalinimas):&lt;/strong&gt; Aukšta temperatūra, palaikoma šildytuvo, yra būtina suodžių ir drėgmės deginimui. Ši savaiminio valymo funkcija reikalinga siekiant išvengti užsiteršimo ir signalo blokavimo, kurie yra pagrindinės signalo dreifo priežastys.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;&lt;strong&gt;Causes and Diagnostics of Heater Failure&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;causes-and-diagnostics-of-heater-failure&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#causes-and-diagnostics-of-heater-failure&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Heater circuit failures typically fall into two categories, both immediately logged by the ECU as Diagnostic Trouble Codes (DTCs) in the P2200 range (e.g., P2205 Heater Control Circuit Malfunction).&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Šildytuvo Gedimo Priežastys ir Diagnostika&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;šildytuvo-gedimo-priežastys-ir-diagnostika&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%c5%a1ildytuvo-gedimo-prie%c5%beastys-ir-diagnostika&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Šildytuvo grandinės gedimai paprastai skirstomi į dvi kategorijas, abi iš karto užregistruojamos ECU kaip diagnostiniai gedimų kodai (DTC) P2200 diapazone (pvz., P2205 Šildytuvo Valdymo Grandinės Gedimas).&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Failure Type&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Description&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Diagnostic Clue (Live Data)&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Gedimo Tipas&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Aprašymas&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Diagnostinis požymis (Tiesioginiai Duomenys)&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Open Circuit (Most Common)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;The heating element coil breaks due to thermal stress or cracking.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Heater Current is Zero.&lt;/strong&gt; The ECU commands current, but the sensor reports no draw. Internal temperature remains low.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Atvira Grandinė (Dažniausias)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Kaitinimo elemento ritė nutrūksta dėl šiluminio įtempio ar įtrūkimo.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Šildytuvo Srovė yra Nulis.&lt;/strong&gt; ECU duoda komandą srovei, bet jutiklis praneša, kad jos nėra. Vidinė temperatūra išlieka žema.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Short Circuit&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;A short occurs within the wiring or element coil.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Heater Current is Abnormally High.&lt;/strong&gt; This trips the ECU&amp;rsquo;s power limit protection, shutting off the circuit.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Trumpasis Jungimas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Trumpasis jungimas įvyksta laiduose arba elemento ritėje.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Šildytuvo Srovė yra Neįprastai Didelė.&lt;/strong&gt; Tai suaktyvina ECU galios ribojimo apsaugą, išjungiančią grandinę.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Control Logic Failure&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;The sensor&amp;rsquo;s internal module fails to correctly regulate the Pulse Width Modulation (PWM) signal to the heater.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Heater turns on and off erratically, leading to wildly fluctuating internal temperatures and NOx readings.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Valdymo Logikos Gedimas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jutiklio vidinis modulis netinkamai reguliuoja impulso pločio moduliavimo (PWM) signalą šildytuvui.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Šildytuvas įsijungia ir išsijungia nereguliariai, o tai sukelia stipriai svyruojančią vidinę temperatūrą ir NOx rodmenis.&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3&gt;&lt;strong&gt;The Consequence: SCR System Shut Down&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-consequence-scr-system-shut-down&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-consequence-scr-system-shut-down&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When a heater circuit fails, the ECU cannot obtain a valid NOx reading. This immediately triggers system protection protocols:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Pasekmė: SCR Sistemos Išjungimas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pasekmė-scr-sistemos-išjungimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pasekm%c4%97-scr-sistemos-i%c5%a1jungimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Kai šildytuvo grandinė sugenda, ECU negali gauti galiojančio NOx rodmens. Tai nedelsiant suaktyvina sistemos apsaugos protokolus:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;The ECU stops DEF dosing, as it cannot verify the effect.&lt;/li&gt;
-&lt;li&gt;The vehicle&amp;rsquo;s emissions control system is deemed non-functional, leading to mandated warnings and eventually, &lt;strong&gt;power de-rating (Limp Mode)&lt;/strong&gt; to enforce compliance.&lt;/li&gt;
+&lt;li&gt;ECU sustabdo DEF dozavimą, nes negali patikrinti poveikio.&lt;/li&gt;
+&lt;li&gt;Automobilio išmetamųjų teršalų kontrolės sistema laikoma neveikiančia, o tai sukelia privalomus įspėjimus ir galiausiai, &lt;strong&gt;galios sumažinimą (Avarinis Režimas)&lt;/strong&gt;, siekiant užtikrinti atitiktį.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Our replacement sensors incorporate premium heating elements and OEM-grade control electronics, rigorously tested against extreme thermal cycling to prevent premature heater failure and ensure consistent readiness for measurement.&lt;/p&gt;
+&lt;p&gt;Mūsų pakaitiniai jutikliai turi aukščiausios kokybės kaitinimo elementus ir OEM lygio valdymo elektroniką, kurie yra griežtai išbandyti atsižvelgiant į ekstremalų šiluminį ciklą, siekiant užkirsti kelią priešlaikiniam šildytuvo gedimui ir užtikrinti nuolatinį pasirengimą matavimui.&lt;/p&gt;
 
       </description>
     </item>
@@ -493,7 +491,7 @@
     </item>
     
     <item>
-      <title>Ammonia Slip -- The Hidden Meaning Behind High Downstream NOx Readings</title>
+      <title>Amoniako Išsiveržimas -- Paslėpta Aukštų Pasroviui esančių NOx Rodmenų Reikšmė</title>
       <link>http://localhost:1313/blog/The-Hidden-Meaning-Behind-High-Downstream-NOx-Readings/</link>
       <pubDate>Tue, 18 Jul 2023 00:35:28 +0800</pubDate>
       
@@ -501,52 +499,51 @@
       <description>
         
         
-        &lt;h3&gt;&lt;strong&gt;Decoding Ammonia Slip: How NOx Sensors Reveal SCR Over-Dosing&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;decoding-ammonia-slip-how-nox-sensors-reveal-scr-over-dosing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#decoding-ammonia-slip-how-nox-sensors-reveal-scr-over-dosing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A common point of confusion in SCR diagnostics is a high NOx reading from the downstream sensor. While this usually indicates NOx is escaping the system, it can also be a tell-tale sign of &lt;strong&gt;Ammonia Slip&lt;/strong&gt; (NH3). This phenomenon is critical to understand, as it confirms an over-dosing issue, not necessarily a failed sensor.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;The NH3 Cross-Sensitivity Principle&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-nh3-cross-sensitivity-principle&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-nh3-cross-sensitivity-principle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx sensors, based on the electrochemical principle of Zirconia cells, are designed to measure NO and NO2. However, they exhibit an unavoidable &lt;strong&gt;cross-sensitivity to Ammonia (NH3)&lt;/strong&gt;.&lt;/p&gt;
+        &lt;h3&gt;&lt;strong&gt;Amoniako Išsiveržimo Dekodavimas: Kaip NOx Jutikliai Atskleidžia Perteklinį SCR Dozavimą&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;amoniako-išsiveržimo-dekodavimas-kaip-nox-jutikliai-atskleidžia-perteklinį-scr-dozavimą&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#amoniako-i%c5%a1siver%c5%beimo-dekodavimas-kaip-nox-jutikliai-atskleid%c5%beia-perteklin%c4%af-scr-dozavim%c4%85&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Dažnas painiavos taškas SCR diagnostikoje yra aukštas NOx rodmuo iš pasroviui esančio jutiklio. Nors tai paprastai rodo, kad NOx išeina iš sistemos, tai taip pat gali būti ryškus &lt;strong&gt;Amoniako Išsiveržimo&lt;/strong&gt; (NH3) požymis. Šį reiškinį labai svarbu suprasti, nes jis patvirtina &lt;strong&gt;perdozavimo&lt;/strong&gt; problemą, o ne būtinai sugedusį jutiklį.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;NH3 Kryžminio Jautrumo Principas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;nh3-kryžminio-jautrumo-principas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#nh3-kry%c5%beminio-jautrumo-principas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx jutikliai, pagrįsti elektrocheminiu Cirkonio elementų principu, yra sukurti matuoti NO ir NO2. Tačiau jie rodo neišvengiamą &lt;strong&gt;kryžminį jautrumą Amoniakui (NH3)&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;NH3 is the reductant used in the SCR process. In a healthy system, NH3 is consumed by the catalyst.&lt;/li&gt;
-&lt;li&gt;If too much DEF is injected (over-dosing), the catalyst runs out of NOx to react with, and the excess, unreacted NH3 leaks through the system—this is &lt;strong&gt;Ammonia Slip&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;When the downstream NOx sensor encounters the NH3, it interprets the gas as NOx and reports an inaccurately high NOx value.&lt;/li&gt;
+&lt;li&gt;NH3 yra reduktorius, naudojamas SCR procese. Sveikoje sistemoje NH3 suvartojamas katalizatoriaus.&lt;/li&gt;
+&lt;li&gt;Jei įpurškiama per daug DEF (perdozavimas), katalizatoriui pritrūksta NOx, su kuriuo reikia reaguoti, o perteklinis, nesureagavęs NH3 nuteka per sistemą – tai yra &lt;strong&gt;Amoniako Išsiveržimas&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Kai pasroviui esantis NOx jutiklis susiduria su NH3, jis interpretuoja dujas kaip NOx ir praneša apie netiksliai aukštą NOx vertę.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Diagnosing Ammonia Slip via Live Data&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;diagnosing-ammonia-slip-via-live-data&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#diagnosing-ammonia-slip-via-live-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The pattern of the NOx readings reveals the presence of NH3 slip:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Amoniako Išsiveržimo Diagnozavimas per Gyvus Duomenis&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;amoniako-išsiveržimo-diagnozavimas-per-gyvus-duomenis&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#amoniako-i%c5%a1siver%c5%beimo-diagnozavimas-per-gyvus-duomenis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx rodmenų modelis atskleidžia NH3 išsiveržimo buvimą:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Parameter&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Reading During NH3 Slip&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Conclusion&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Parametras&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Rodmuo NH3 Išsiveržimo Metu&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Išvada&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Upstream (Inlet) NOx&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Normal or High&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Engine is producing NOx.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Prieš Srovę (Įleidimo) NOx&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Normalus arba Aukštas&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Variklis gamina NOx.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Downstream (Outlet) NOx&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Unusually &lt;strong&gt;High&lt;/strong&gt; and potentially &lt;strong&gt;Spiking&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;The reading is artificially high due to NH3 interference.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Pasroviui (Išleidimo) NOx&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Neįprastai &lt;strong&gt;Aukštas&lt;/strong&gt; ir potencialiai &lt;strong&gt;Šuoliuojantis&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Rodmuo yra dirbtinai aukštas dėl NH3 trikdžių.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Calculated SCR Efficiency&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Appears to &lt;strong&gt;Drop Drastically&lt;/strong&gt; or go negative&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;The ECU believes the catalyst is suddenly failing, but the physical issue is DEF over-dosing.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Apskaičiuotas SCR Efektyvumas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Atrodo, &lt;strong&gt;Drastiškai Krinta&lt;/strong&gt; arba tampa neigiamas&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;ECU mano, kad katalizatorius staiga genda, bet fizinė problema yra DEF perdozavimas.&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3&gt;&lt;strong&gt;Why NH3 Slip is a Problem&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;why-nh3-slip-is-a-problem&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#why-nh3-slip-is-a-problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Ammonia Slip is not just a diagnostic headache; it has real-world consequences:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Kodėl NH3 Išsiveržimas yra Problema&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kodėl-nh3-išsiveržimas-yra-problema&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kod%c4%97l-nh3-i%c5%a1siver%c5%beimas-yra-problema&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Amoniako Išsiveržimas yra ne tik diagnostinis galvos skausmas; jis turi realių pasekmių:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Compliance Risk:&lt;/strong&gt; Even if the NOx is reduced, high NH3 emissions can violate non-NOx emissions standards and are easily detectable by an acrid odor.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DEF Waste:&lt;/strong&gt; Over-dosing means DEF is being consumed inefficiently.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sensor Contamination:&lt;/strong&gt; Persistent NH3 slip leads to the formation of solid DEF byproducts on the downstream NOx sensor and the SCR catalyst, accelerating component failure.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Atitikties Rizika:&lt;/strong&gt; Net jei NOx yra sumažintas, aukštos NH3 emisijos gali pažeisti ne-NOx emisijos standartus ir yra lengvai aptinkamos dėl aitraus kvapo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DEF Švaistymas:&lt;/strong&gt; Perdozavimas reiškia, kad DEF yra vartojamas neefektyviai.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jutiklio Užteršimas:&lt;/strong&gt; Nuolatinis NH3 išsiveržimas sukelia kietų DEF šalutinių produktų susidarymą ant pasroviui esančio NOx jutiklio ir SCR katalizatoriaus, pagreitinant komponentų gedimą.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Our sensors provide highly responsive and stable readings that allow ECU control logic to quickly identify and correct NH3 slip conditions, protecting both the environment and the entire SCR investment.&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;Mūsų jutikliai teikia labai jautrius ir stabilius rodmenis, leidžiančius ECU valdymo logikai greitai nustatyti ir ištaisyti NH3 išsiveržimo sąlygas, apsaugant tiek aplinką, tiek visą SCR investiciją.&lt;/p&gt;
 
       </description>
     </item>

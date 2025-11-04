@@ -1,40 +1,38 @@
 ---
-title: Ammonia Slip -- The Hidden Meaning Behind High Downstream NOx Readings
-description: Is it the Probe or the Module? Dissecting the NOx Sensor System for Accurate Repair
+title: Amoniako Išsiveržimas -- Paslėpta Aukštų Pasroviui esančių NOx Rodmenų Reikšmė
+description: Ar tai Zondas, ar Modulis? NOx Jutiklių Sistemos Analizė Tiksliam Remontui
 breadcrumbs: true
 date: "2023-07-18T00:35:28+08:00"
 draft: false
 ---
-### **Decoding Ammonia Slip: How NOx Sensors Reveal SCR Over-Dosing**
+### **Amoniako Išsiveržimo Dekodavimas: Kaip NOx Jutikliai Atskleidžia Perteklinį SCR Dozavimą**
 
-A common point of confusion in SCR diagnostics is a high NOx reading from the downstream sensor. While this usually indicates NOx is escaping the system, it can also be a tell-tale sign of **Ammonia Slip** (NH3). This phenomenon is critical to understand, as it confirms an over-dosing issue, not necessarily a failed sensor.
+Dažnas painiavos taškas SCR diagnostikoje yra aukštas NOx rodmuo iš pasroviui esančio jutiklio. Nors tai paprastai rodo, kad NOx išeina iš sistemos, tai taip pat gali būti ryškus **Amoniako Išsiveržimo** (NH3) požymis. Šį reiškinį labai svarbu suprasti, nes jis patvirtina **perdozavimo** problemą, o ne būtinai sugedusį jutiklį.
 
-### **The NH3 Cross-Sensitivity Principle**
+### **NH3 Kryžminio Jautrumo Principas**
 
-NOx sensors, based on the electrochemical principle of Zirconia cells, are designed to measure NO and NO2. However, they exhibit an unavoidable **cross-sensitivity to Ammonia (NH3)**.
+NOx jutikliai, pagrįsti elektrocheminiu Cirkonio elementų principu, yra sukurti matuoti NO ir NO2. Tačiau jie rodo neišvengiamą **kryžminį jautrumą Amoniakui (NH3)**.
 
-* NH3 is the reductant used in the SCR process. In a healthy system, NH3 is consumed by the catalyst.
-* If too much DEF is injected (over-dosing), the catalyst runs out of NOx to react with, and the excess, unreacted NH3 leaks through the system—this is **Ammonia Slip**.
-* When the downstream NOx sensor encounters the NH3, it interprets the gas as NOx and reports an inaccurately high NOx value.
+* NH3 yra reduktorius, naudojamas SCR procese. Sveikoje sistemoje NH3 suvartojamas katalizatoriaus.
+* Jei įpurškiama per daug DEF (perdozavimas), katalizatoriui pritrūksta NOx, su kuriuo reikia reaguoti, o perteklinis, nesureagavęs NH3 nuteka per sistemą – tai yra **Amoniako Išsiveržimas**.
+* Kai pasroviui esantis NOx jutiklis susiduria su NH3, jis interpretuoja dujas kaip NOx ir praneša apie netiksliai aukštą NOx vertę.
 
-### **Diagnosing Ammonia Slip via Live Data**
+### **Amoniako Išsiveržimo Diagnozavimas per Gyvus Duomenis**
 
-The pattern of the NOx readings reveals the presence of NH3 slip:
+NOx rodmenų modelis atskleidžia NH3 išsiveržimo buvimą:
 
-| Parameter | Reading During NH3 Slip | Conclusion |
+| Parametras | Rodmuo NH3 Išsiveržimo Metu | Išvada |
 | :--- | :--- | :--- |
-| **Upstream (Inlet) NOx** | Normal or High | Engine is producing NOx. |
-| **Downstream (Outlet) NOx** | Unusually **High** and potentially **Spiking** | The reading is artificially high due to NH3 interference. |
-| **Calculated SCR Efficiency** | Appears to **Drop Drastically** or go negative | The ECU believes the catalyst is suddenly failing, but the physical issue is DEF over-dosing. |
+| **Prieš Srovę (Įleidimo) NOx** | Normalus arba Aukštas | Variklis gamina NOx. |
+| **Pasroviui (Išleidimo) NOx** | Neįprastai **Aukštas** ir potencialiai **Šuoliuojantis** | Rodmuo yra dirbtinai aukštas dėl NH3 trikdžių. |
+| **Apskaičiuotas SCR Efektyvumas** | Atrodo, **Drastiškai Krinta** arba tampa neigiamas | ECU mano, kad katalizatorius staiga genda, bet fizinė problema yra DEF perdozavimas. |
 
-### **Why NH3 Slip is a Problem**
+### **Kodėl NH3 Išsiveržimas yra Problema**
 
-Ammonia Slip is not just a diagnostic headache; it has real-world consequences:
+Amoniako Išsiveržimas yra ne tik diagnostinis galvos skausmas; jis turi realių pasekmių:
 
-1.  **Compliance Risk:** Even if the NOx is reduced, high NH3 emissions can violate non-NOx emissions standards and are easily detectable by an acrid odor.
-2.  **DEF Waste:** Over-dosing means DEF is being consumed inefficiently.
-3.  **Sensor Contamination:** Persistent NH3 slip leads to the formation of solid DEF byproducts on the downstream NOx sensor and the SCR catalyst, accelerating component failure.
+1.  **Atitikties Rizika:** Net jei NOx yra sumažintas, aukštos NH3 emisijos gali pažeisti ne-NOx emisijos standartus ir yra lengvai aptinkamos dėl aitraus kvapo.
+2.  **DEF Švaistymas:** Perdozavimas reiškia, kad DEF yra vartojamas neefektyviai.
+3.  **Jutiklio Užteršimas:** Nuolatinis NH3 išsiveržimas sukelia kietų DEF šalutinių produktų susidarymą ant pasroviui esančio NOx jutiklio ir SCR katalizatoriaus, pagreitinant komponentų gedimą.
 
-Our sensors provide highly responsive and stable readings that allow ECU control logic to quickly identify and correct NH3 slip conditions, protecting both the environment and the entire SCR investment.
-
----
+Mūsų jutikliai teikia labai jautrius ir stabilius rodmenis, leidžiančius ECU valdymo logikai greitai nustatyti ir ištaisyti NH3 išsiveržimo sąlygas, apsaugant tiek aplinką, tiek visą SCR investiciją.
