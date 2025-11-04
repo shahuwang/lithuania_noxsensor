@@ -18,73 +18,71 @@ swiper_images:
   - "./assets/volvo_10.avif"
 ---
 
-*Fortisor® offers the complete OE cross-reference list for all Volvo NOx sensors.  
-Find the perfect high-quality replacement sensor for your car, SUV, or commercial vehicle by part number.*
+*Fortisor® siūlo pilną OE kryžminių nuorodų sąrašą visiems Volvo NOx jutikliams.
+Raskite tobulą aukštos kokybės pakaitinį jutiklį savo automobiliui, visureigiui ar komercinei transporto priemonei pagal dalies numerį.*
 
-{{< swiper ratio="4/3" fit="cover" maxWidth="800px" maxHeight="600px">}}
+{{< swiper ratio="4/3" fit="cover" maxWidth="800px" maxHeight="800px">}}
 
-#### Global Procurement Made Easy: Your Trusted Partner
-**Fortisor®** understands the stringent demands placed on NOx sensors within the Volvo SCR system—**precision, reliability, and longevity are non-negotiable**.This page provides the complete OE Cross Reference List for Volvo car, SUV, and commercial applications. We are not just a supplier; we are a technical brand deeply focused on emission control technology.
+#### Pasaulinis Pirkimas Tapo Paprastas: Jūsų Patikimas Partneris
+**Fortisor®** supranta griežtus reikalavimus, keliamus NOx jutikliams Volvo SCR sistemoje – **tikslumas, patikimumas ir ilgaamžiškumas yra nediskutuotini**. Šiame puslapyje pateikiamas visas OE Kryžminių Nuorodų Sąrašas, skirtas Volvo automobilių, visureigių ir komercinių transporto priemonių reikmėms. Mes esame ne tik tiekėjai; esame techninis prekės ženklas, giliai orientuotas į emisijos kontrolės technologijas.
 
-Choosing **Fortisor®** is choosing proven durability and precision designed to exceed common aftermarket reliability.  
+Pasirinkti **Fortisor®** reiškia pasirinkti įrodytą ilgaamžiškumą ir tikslumą, sukurtą viršyti įprastą antrinės rinkos patikimumą.
 
-Whether you are an individual customer or a corporate buyer, **new to international purchasing or concerned about payment security and logistics**, **Fortisor®** is here to simplify the entire process. You have a need for high-quality NOx sensors, and we have the professional service to ensure you receive your goods **smoothly, securely, and reliably**.  
+Nesvarbu, ar esate individualus klientas, ar įmonės pirkėjas, **pradedantysis tarptautiniuose pirkimuose ar susirūpinęs dėl mokėjimo saugumo ir logistikos**, **Fortisor®** yra čia, kad supaprastintų visą procesą. Jums reikia aukštos kokybės NOx jutiklių, o mes turime profesionalų aptarnavimą, užtikrinantį, kad gausite savo prekes **sklandžiai, saugiai ir patikimai**.
 
-We provide expert guidance to resolve your concerns regarding:  
-1. Ordering Process: Clear, step-by-step guidance on initiating your purchase.  
-2. Payment Methods: Secure and accessible payment options to ensure fund safety.  
-3. Logistics & Delivery: Reliable shipping solutions with transparent tracking.  
-4. Customs Clearance: Assistance and documentation to navigate international customs procedures. 
+Mes teikiame ekspertų patarimus, siekdami išspręsti Jūsų rūpimus klausimus dėl:
+1. Užsakymo Proceso: Aiškios, nuoseklios gairės, kaip inicijuoti pirkimą.
+2. Mokėjimo Būdų: Saugūs ir prieinami mokėjimo būdai užtikrinant lėšų saugumą.
+3. Logistikos ir Pristatymo: Patikimi siuntimo sprendimai su skaidriu sekimu.
+4. Muitinės Tarpininkavimo: Pagalba ir dokumentacija, siekiant naviguoti tarptautines muitinės procedūras.
 
-For a detailed, comprehensive walkthrough of our purchasing system, please refer to our dedicated Procurement Guide page:  
-***[Procurement Guide Link] [https://fortisor.com/blog/guide-to-procurement/](https://fortisor.com/blog/guide-to-procurement/)***
+Išsamų, visapusišką mūsų pirkimo sistemos apžvalgą rasite mūsų specializuotame Pirkimo Vadovo puslapyje:
+***[Nuoroda į Pirkimo Vadovą] [https://lt.fortisor.com/blog/guide-to-procurement/](https://lt.fortisor.com/blog/guide-to-procurement/)***
 
-#### Ready to Order? Contact Our Team Today!
-If you have a need for NOx sensors, please contact us immediately at **fortisor@163.com**.  
-No English? No Problem! You can send your inquiry in your **native language** (e.g., German, French, Spanish, Chinese, etc.). We guarantee a prompt response to answer all your questions and provide the expert procurement service necessary to ensure you receive your goods safely and without complications.
+#### Pasiruošę Užsakyti? Susisiekite su Mūsų Komanda Jau Šiandien!
+Jei Jums reikia NOx jutiklių, nedelsiant susisiekite su mumis el. paštu **fortisor@163.com**.
+Jokių Angliškų Žodžių? Jokių Problemų! Galite siųsti užklausą **gimtąja kalba** (pvz., vokiečių, prancūzų, ispanų, kinų ir kt.). Mes garantuojame greitą atsakymą į visus Jūsų klausimus ir teikiame ekspertinį pirkimo aptarnavimą, būtiną užtikrinti, kad gautumėte savo prekes saugiai ir be komplikacijų.
 
-#### Fortisor®: A Technology-Focused Emission Control Specialist
-Fortisor® specializes in the R&D and manufacturing of high-precision automotive sensors, with a particular focus on Nitrogen Oxide (NOx) emission control technology. We implement a stringent internal Quality Management System across every step of production, utilizing Multi-Point QC for maximum integrity. Our core strength lies in our deep specialization and technical focus on NOx sensors, enabling us to deliver robust, high-reliability replacement solutions for complex European systems like those found in Volvo.
+#### Fortisor®: Į Technologijas Orientuotas Emisijos Kontrolės Specialistas
+Fortisor® specializuojasi aukšto tikslumo automobilių jutiklių MTEP ir gamyboje, ypač daug dėmesio skirdamas Azoto Oksido (NOx) emisijos kontrolės technologijai. Kiekviename gamybos etape mes diegiame griežtą vidinę Kokybės Valdymo Sistemą, naudojant Kelių Taškų QC maksimaliam vientisumui užtikrinti. Mūsų pagrindinė stiprybė slypi gilioje specializacijoje ir techninėje orientacijoje į NOx jutiklius, leidžiančioje mums tiekti tvirtus, didelio patikimumo pakaitinius sprendimus sudėtingoms Europos sistemoms, tokioms kaip naudojamos Volvo.
 
-#### Fortisor® NOx Sensors: Engineered for Volvo Reliability
-Every Fortisor® sensor is a complete, pre-calibrated system, consisting of two integral parts: the Ceramic Sensing Probe and the Control Unit (ECU). We supply a fully programmed solution, guaranteeing accurate communication via the CAN bus and ensuring a seamless, Plug-and-Play Precision experience, with zero latency and the elimination of common recurring error codes.
+#### Fortisor® NOx Jutikliai: Sukurti Volvo Patikimumui
+Kiekvienas Fortisor® jutiklis yra pilna, iš anksto sukalibruota sistema, susidedanti iš dviejų sudedamųjų dalių: Keramikinio Jutimo Zondo ir Valdymo Bloko (ECU). Mes tiekiame visiškai užprogramuotą sprendimą, garantuojantį tikslų ryšį per CAN magistralę ir užtikrinantį vientisą, „Plug-and-Play“ Tikslumo patirtį, su nuline vėlavimo trukme ir įprastų pasikartojančių klaidų kodų pašalinimu.
 
-#### Unrivaled Technical Edge: Precision, Reliability, and Broad Compatibility
-Fortisor® sensors stand apart from standard aftermarket alternatives. We believe that true quality is measured in three critical areas:
-1.  **Sensing Precision & Stability (Signal Drift Prevention):**
-    > **[NGK Ceramic Heart]**: We utilize **NGK high-precision ceramic elements** paired with advanced encapsulation technology. Every sensor undergoes **multi-point calibration** with standard gases during production, ensuring the output signal remains **stable and reliable** even under extreme temperatures, high humidity, and severe vibration.
-2.  **ECU Hardware Reliability (Automotive-Grade Chip):**
-    > **[AEC-Q100 Certified]**: The ECU chips used in all Fortisor® NOx sensors are **Automotive-Grade (AEC-Q100 certified)**. They pass rigorous environmental and long-term durability tests, guaranteeing continuous, stable operation across varying temperatures, humidity, and vibration, preventing electronics failures seen in non-certified components.
-3.  **Communication Protocol & Coverage (The Fortisor® Advantage):**
-    > **[Superior Multi-Protocol Compatibility]**: Our ECU chips feature **Multi-Protocol Compatibility Technology**, enabling the sensor to communicate seamlessly with the ECUs of a *wider range of Volvo models*. This broad compatibility means that, **provided the physical probe shape is correct, a single Fortisor® part can service multiple OE numbers and vehicle variants**, dramatically simplifying inventory and spare parts management for workshops.
+#### Nepralenkiama Techninė Pranašumas: Tikslumas, Patikimumas ir Platus Suderinamumas
+Fortisor® jutikliai išsiskiria iš standartinių antrinės rinkos alternatyvų. Manome, kad tikra kokybė matuojama trimis kritinėmis sritimis:
+1.  **Jutimo Tikslumas ir Stabilumas (Signalo Nukrypimo Prevencija):**
+    > **[NGK Keramikinė Širdis]**: Mes naudojame **NGK aukšto tikslumo keraminius elementus** kartu su pažangia inkapsuliavimo technologija. Kiekvienas jutiklis gamybos metu atlieka **kelių taškų kalibravimą** su standartinėmis dujomis, užtikrinant, kad išėjimo signalas išlieka **stabilus ir patikimas** net esant ekstremalioms temperatūroms, didelei drėgmei ir stipriai vibracijai.
+2.  **ECU Aparatūros Patikimumas (Automobilių Klasės Mikroschema):**
+    > **[AEC-Q100 Sertifikuotas]**: ECU mikroschemos, naudojamos visuose Fortisor® NOx jutikliuose, yra **Automobilių Klasės (AEC-Q100 sertifikuotos)**. Jos išlaiko griežtus aplinkos ir ilgalaikio patvarumo testus, garantuodamos nepertraukiamą, stabilų veikimą įvairiose temperatūrose, drėgmėje ir vibracijoje, užkertant kelią elektronikos gedimams, pastebimiems nesertifikuotuose komponentuose.
+3.  **Ryšio Protokolas ir Aprėptis (Fortisor® Privalumas):**
+    > **[Aukščiausias Kelių Protokolų Suderinamumas]**: Mūsų ECU mikroschemos turi **Kelių Protokolų Suderinamumo Technologiją**, leidžiančią jutikliui sklandžiai bendrauti su *platesnio Volvo modelių asortimento* ECU. Šis platus suderinamumas reiškia, kad, **jei fizinė zondo forma yra teisinga, viena Fortisor® dalis gali aptarnauti kelis OE numerius ir transporto priemonės variantus**, dramatiškai supaprastinant atsargų ir atsarginių dalių valdymą dirbtuvėms.
 
-#### Transparent Value: Performance Without the Premium Price
-At **Fortisor®**, we believe that effective emission control should be accessible, not a burden. We are committed to combating the excessively high repair costs often imposed by certain manufacturers, ensuring that environmental responsibility does not come at an unfair price to the average vehicle owner.
+#### Skaidri Vertė: Našumas Be Premium Kainos
+**Fortisor®** tiki, kad efektyvi emisijos kontrolė turėtų būti prieinama, o ne našta. Esame įsipareigoję kovoti su pernelyg didelėmis remonto išlaidomis, kurias dažnai nustato tam tikri gamintojai, užtikrindami, kad aplinkosauginė atsakomybė nekainuotų nesąžiningos kainos vidutiniam transporto priemonės savininkui.
 
-While we do not list prices publicly, our single unit cost is typically only **10% to 20% of the Original Equipment (OE) manufacturer’s price**.
+Nors mes viešai nenurodome kainų, mūsų vieno vieneto kaina paprastai sudaro tik **10% iki 20% Originalios Įrangos (OE) gamintojo kainos**.
 
-Whether you are looking for single-unit savings or bulk purchase profitability, we guarantee our prices will be highly competitive and entirely satisfactory.
+Nesvarbu, ar ieškote vieno vieneto sutaupymo, ar didelio pirkimo pelningumo, mes garantuojame, kad mūsų kainos bus labai konkurencingos ir visiškai patenkinamos.
 
-For all pricing inquiries, please contact us directly at fortisor@163.com. We are ready to discuss bulk pricing that ensures excellent profit margins for our professional partners.
+Dėl visų kainų užklausų kreipkitės tiesiogiai į mus el. paštu fortisor@163.com. Esame pasirengę aptarti didmenines kainas, kurios užtikrina puikias pelno maržas mūsų profesionaliems partneriams.
 
-#### Fortisor® Quality Assurance: Our Warranty Commitment
- We stand firmly behind the quality and durability of our technology.
+#### Fortisor® Kokybės Užtikrinimas: Mūsų Garantijos Įsipareigojimas
+Mes tvirtai stovime už savo technologijos kokybę ir ilgaamžiškumą.
 
-###### 1. Standard Warranty
-All Fortisor NOx Sensors are covered by a **12-Month Warranty** starting from the date of delivery.  
-Under this warranty, you have the choice of a free replacement unit or a full refund of the product value.
+###### 1. Standartinė Garantija
+Visiems Fortisor NOx Jutikliams taikoma **12 Mėnesių Garantija**, pradedant skaičiuoti nuo pristatymo datos.
+Pagal šią garantiją galite pasirinkti nemokamą pakaitinį vienetą arba visą produkto vertės grąžinimą.
 
-###### 2. Extended Warranty for Business Partners
-Recognizing the needs of our professional clients, we offer an **extended 15-Month Warranty** for bulk purchasers, including official distributors, dealerships, and authorized repair shops. This commitment provides our partners with an **additional three months of protection** and minimized inventory risk.
+###### 2. Išplėstinė Garantija Verslo Partneriams
+Pripažindami mūsų profesionalių klientų poreikius, siūlome **išplėstinę 15 Mėnesių Garantiją** didelių pirkimų pirkėjams, įskaitant oficialius platintojus, atstovybes ir įgaliotus remonto dirbtuvėms. Šis įsipareigojimas suteikia mūsų partneriams **papildomus tris mėnesius apsaugos** ir sumažina atsargų riziką.
 
-###### 3. Our Final Commitment
-We guarantee that a Fortisor sensor will meet or exceed the performance and lifespan requirements of the original Volvo unit.
+###### 3. Mūsų Galutinis Įsipareigojimas
+Mes garantuojame, kad Fortisor jutiklis atitiks arba viršys originalios Volvo dalies našumo ir tarnavimo laiko reikalavimus.
 
-
-
-#### Volvo NOx Sensor OE Part Number Cross Reference
-Below is a reference list of Volvo NOx Sensor OE Part Numbers. Please note that this list is not exhaustive.  
-If the specific OE Part Number you require is not listed above, please do not worry. Fortisor is capable of supplying the NOx sensor for any OE number you may need. For any unlisted OE part number inquiries, please contact us directly at fortisor@163.com.
+#### Volvo NOx Jutiklio OE Dalies Numerio Kryžminė Nuoroda
+Žemiau pateikiamas Volvo NOx Jutiklio OE Dalies Numerių nuorodų sąrašas. Atkreipkite dėmesį, kad šis sąrašas nėra išsamus.
+Jei Jums reikalingas konkretus OE Dalies Numeris nėra nurodytas aukščiau, nesijVolvonkite. Fortisor gali tiekti NOx jutiklį bet kuriam OE numeriui, kurio Jums gali prireikti. Dėl bet kokių neįtrauktų OE dalies numerių užklausų kreipkitės tiesiogiai į mus el. paštu fortisor@163.com.
 
 ***Volvo 12V passenger car codes:***
 | 1         | 2         | 3         | 4         | 5         |6          |
@@ -104,4 +102,4 @@ If the specific OE Part Number you require is not listed above, please do not wo
 |21567763   |21302276   |22014032   |22315988   |22827993   |21346963   |22303391   |           |
 
 
-***If you have a need for NOx sensors, please contact us immediately at fortisor@163.com.***
+***Jei Jums reikia NOx jutiklių, nedelsiant susisiekite su mumis el. paštu fortisor@163.com.***
