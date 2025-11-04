@@ -1,7 +1,7 @@
 ---
 linkTitle: "MAN"
-title: Fortisor® MAN NOx Sensor OE List
-description: Fortisor offers the complete OE cross-reference list for all MAN NOx sensors. Find the perfect high-quality replacement sensor for your car, SUV, or commercial vehicle by part number.
+title: Fortisor® MAN NOx jutiklio originalių (OE) dalių numerių sąrašas
+description: Fortisor siūlo visą MAN NOx jutiklių originalių (OE) dalių numerių atitikmenų sąrašą. Raskite tobulą, aukštos kokybės pakaitinį jutiklį savo lengvajam automobiliui, visureigiui (SUV) ar komercinei transporto priemonei pagal dalies numerį.
 breadcrumbs: true
 date: "2025-10-22T00:35:28+08:00"
 draft: false
