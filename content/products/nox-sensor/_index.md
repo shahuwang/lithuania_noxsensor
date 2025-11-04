@@ -1,4 +1,4 @@
 ---
-title: NOx Sensor
+title: NOx jutiklis
 breadcrumbs: true
 ---

@@ -1,5 +1,5 @@
 ---
-title: Blog
-linkTitle: "blog"
+title: Tinklaraščiai
+linkTitle: "Tinklaraščiai"
 breadcrumbs: true
 ---
