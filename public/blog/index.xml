@@ -428,7 +428,7 @@
     </item>
     
     <item>
-      <title>Probe vs. Module Dissecting the NOx Sensor System</title>
+      <title>Zondas prieš Modulį NOx Jutiklio Sistemos Analizė</title>
       <link>http://localhost:1313/blog/Dissecting-the-NOx-Sensor-System/</link>
       <pubDate>Tue, 21 Nov 2023 00:35:28 +0800</pubDate>
       
@@ -436,59 +436,58 @@
       <description>
         
         
-        &lt;h3&gt;&lt;strong&gt;Is it the Probe or the Module? Dissecting the NOx Sensor System for Accurate Repair&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;is-it-the-probe-or-the-module-dissecting-the-nox-sensor-system-for-accurate-repair&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#is-it-the-probe-or-the-module-dissecting-the-nox-sensor-system-for-accurate-repair&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The NOx sensor is not a single component, but a sophisticated system comprising two distinct, yet interconnected parts: the &lt;strong&gt;Sensor Probe&lt;/strong&gt; (sensing element) and the &lt;strong&gt;Control Module&lt;/strong&gt; (electronics/processor). Understanding which component has failed is essential for effective diagnostics, even though regulations often require replacing the unit as a whole.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;The Two Halves of the NOx Sensor&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-two-halves-of-the-nox-sensor&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-two-halves-of-the-nox-sensor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+        &lt;h3&gt;&lt;strong&gt;Ar tai Zondas, ar Modulis? NOx Jutiklio Sistemos Analizė Tiksliam Remontui&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ar-tai-zondas-ar-modulis-nox-jutiklio-sistemos-analizė-tiksliam-remontui&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ar-tai-zondas-ar-modulis-nox-jutiklio-sistemos-analiz%c4%97-tiksliam-remontui&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx jutiklis nėra vienas komponentas, o sudėtinga sistema, kurią sudaro dvi skirtingos, tačiau tarpusavyje susijusios dalys: &lt;strong&gt;Jutiklio Zondas&lt;/strong&gt; (jutimo elementas) ir &lt;strong&gt;Valdymo Modulis&lt;/strong&gt; (elektronika/procesorius). Norint efektyviai diagnozuoti, būtina suprasti, kuris komponentas sugedo, net jei taisyklės dažnai reikalauja keisti visą mazgą.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Dvi NOx Jutiklio Dalys&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;dvi-nox-jutiklio-dalys&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#dvi-nox-jutiklio-dalys&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Component&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Function&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Location&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Primary Failure Modes&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Komponentas&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Funkcija&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Vieta&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Pagrindiniai Gedimo Būdai&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Sensor Probe&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Measures the actual NOx and Oxygen concentration electrochemically.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Threaded into the exhaust pipe.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Soot fouling, chemical poisoning, physical cracking, heater element failure.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Jutiklio Zondas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Elektrochemiškai matuoja faktinę NOx ir Deguonies koncentraciją.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Įsriegtas į išmetimo vamzdį.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Suodžių užteršimas, cheminis apnuodijimas, fizinis įtrūkimas, kaitinimo elemento gedimas.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Control Module&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Contains the microprocessor, CAN communication chip, and heater control circuit. Processes the probe&amp;rsquo;s raw mV signal into the final ppm (parts per million) value for the ECU.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Mounted remotely on the harness, often encased in aluminum.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Electrical short circuits, voltage spike damage, CAN communication failure.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Valdymo Modulis&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Turi mikroprocesorių, CAN ryšio lustą ir šildytuvo valdymo grandinę. Apdoroja neapdorotą zondo mV signalą į galutinę ppm (dalys milijonui) vertę ECU.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Sumontuotas nuotoliniu būdu ant laidyno, dažnai uždengtas aliuminiu.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Elektriniai trumpieji jungimai, įtampos šuolių pažeidimai, CAN ryšio gedimas.&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3&gt;&lt;strong&gt;Connecting Fault Types to Components&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;connecting-fault-types-to-components&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#connecting-fault-types-to-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The type of DTC or symptom can often point directly to the failing component:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Gedimo Tipų Susiejimas su Komponentais&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;gedimo-tipų-susiejimas-su-komponentais&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#gedimo-tip%c5%b3-susiejimas-su-komponentais&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DTC tipas ar simptomas dažnai gali tiesiogiai nurodyti gedimą patyrusį komponentą:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Probe-Related Faults (Gradual/Chemical):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Su Zondu Susiję Gedimai (Laipsniški/Cheminiai):&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Signal Drift/Slow Response:&lt;/strong&gt; Indication that the sensing elements are chemically poisoned or physically blocked by soot. The ECU detects implausible or sluggish readings, typically logging P229F (Sensor Performance/Drift).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Heater Element Break:&lt;/strong&gt; The physical heater in the probe has failed, leading to an open circuit DTC.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Signalo Nukrypimas/Lėtas Atsakas:&lt;/strong&gt; Rodo, kad jutimo elementai yra chemiškai apnuodyti arba fiziškai užblokuoti suodžiais. ECU aptinka neįtikėtinus ar vangius rodmenis, paprastai registruojant P229F (Jutiklio Veikimas/Nukrypimas).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Kaitinimo Elemento Nutrūkimas:&lt;/strong&gt; Fizinis šildytuvas zonde sugedo, sukeliantis atviros grandinės DTC.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Module-Related Faults (Immediate/Electrical):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Su Moduliu Susiję Gedimai (Momentiniai/Elektriniai):&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;CAN Communication Failure:&lt;/strong&gt; The module&amp;rsquo;s processor or transceiver chip has failed, preventing it from broadcasting data. This logs U-codes (Communication Errors).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Voltage Supply Error:&lt;/strong&gt; The module&amp;rsquo;s internal power regulators are damaged, often due to high voltage spikes, leading to an immediate shutdown and power-related DTCs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CAN Ryšio Gedimas:&lt;/strong&gt; Modulio procesorius ar siųstuvo-imtuvo lustas sugedo, nebeleidžiant transliuoti duomenų. Tai registruoja U-kodai (Ryšio Klaidos).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Įtampos Tiekimo Klaida:&lt;/strong&gt; Modulio vidiniai galios reguliatoriai yra pažeisti, dažnai dėl aukštos įtampos šuolių, sukeliant momentinį išsijungimą ir su galia susijusius DTC.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Our Integrated Quality Approach&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;our-integrated-quality-approach&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#our-integrated-quality-approach&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;While some aftermarket providers attempt to separate and replace only the probe or the module, modern OEM standards mandate replacement of the complete unit.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Mūsų Integruotas Kokybės Požiūris&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mūsų-integruotas-kokybės-požiūris&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#m%c5%abs%c5%b3-integruotas-kokyb%c4%97s-po%c5%bei%c5%abris&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Nors kai kurie atsarginių dalių tiekėjai bando atskirti ir pakeisti tik zondą ar tik modulį, šiuolaikiniai OĮG standartai reikalauja keisti visą mazgą.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Guaranteed Calibration:&lt;/strong&gt; The probe and module are precisely matched and calibrated during manufacturing. Replacing only one component risks permanent calibration inaccuracy.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reliability:&lt;/strong&gt; Our complete NOx sensor assemblies ensure that the delicate communication and power supply between the probe and module are guaranteed to function as designed, providing a reliable, long-term fix.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Garantuotas Kalibravimas:&lt;/strong&gt; Zondas ir modulis yra tiksliai suderinami ir kalibruojami gamybos metu. Pakeitus tik vieną komponentą, kyla nuolatinio kalibravimo netikslumo rizika.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Patikimumas:&lt;/strong&gt; Mūsų pilni NOx jutiklių mazgai užtikrina, kad subtilus ryšys ir maitinimas tarp zondo ir modulio garantuotai veiktų taip, kaip numatyta, užtikrinant patikimą ir ilgalaikį remontą.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Choosing a complete, high-quality replacement unit is the most professional way to restore the accuracy and compliance of the SCR system.&lt;/p&gt;
-&lt;hr&gt;
+&lt;p&gt;Pasirinkimas pilno, aukštos kokybės pakaitinio mazgo yra profesionaliausias būdas atkurti SCR sistemos tikslumą ir atitiktį reikalavimams.&lt;/p&gt;
 
       </description>
     </item>

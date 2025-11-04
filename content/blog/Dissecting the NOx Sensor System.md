@@ -1,40 +1,38 @@
 ---
-title: Probe vs. Module Dissecting the NOx Sensor System
-description: Is it the Probe or the Module? Dissecting the NOx Sensor System for Accurate Repair
+title: Zondas prieš Modulį NOx Jutiklio Sistemos Analizė
+description: Ar tai Zondas, ar Modulis? NOx Jutiklio Sistemos Analizė Tiksliam Remontui
 breadcrumbs: true
 date: "2023-11-21T00:35:28+08:00"
 draft: false
 ---
-### **Is it the Probe or the Module? Dissecting the NOx Sensor System for Accurate Repair**
+### **Ar tai Zondas, ar Modulis? NOx Jutiklio Sistemos Analizė Tiksliam Remontui**
 
-The NOx sensor is not a single component, but a sophisticated system comprising two distinct, yet interconnected parts: the **Sensor Probe** (sensing element) and the **Control Module** (electronics/processor). Understanding which component has failed is essential for effective diagnostics, even though regulations often require replacing the unit as a whole.
+NOx jutiklis nėra vienas komponentas, o sudėtinga sistema, kurią sudaro dvi skirtingos, tačiau tarpusavyje susijusios dalys: **Jutiklio Zondas** (jutimo elementas) ir **Valdymo Modulis** (elektronika/procesorius). Norint efektyviai diagnozuoti, būtina suprasti, kuris komponentas sugedo, net jei taisyklės dažnai reikalauja keisti visą mazgą.
 
-### **The Two Halves of the NOx Sensor**
+### **Dvi NOx Jutiklio Dalys**
 
-| Component | Function | Location | Primary Failure Modes |
+| Komponentas | Funkcija | Vieta | Pagrindiniai Gedimo Būdai |
 | :--- | :--- | :--- | :--- |
-| **Sensor Probe** | Measures the actual NOx and Oxygen concentration electrochemically. | Threaded into the exhaust pipe. | Soot fouling, chemical poisoning, physical cracking, heater element failure. |
-| **Control Module** | Contains the microprocessor, CAN communication chip, and heater control circuit. Processes the probe's raw mV signal into the final ppm (parts per million) value for the ECU. | Mounted remotely on the harness, often encased in aluminum. | Electrical short circuits, voltage spike damage, CAN communication failure. |
+| **Jutiklio Zondas** | Elektrochemiškai matuoja faktinę NOx ir Deguonies koncentraciją. | Įsriegtas į išmetimo vamzdį. | Suodžių užteršimas, cheminis apnuodijimas, fizinis įtrūkimas, kaitinimo elemento gedimas. |
+| **Valdymo Modulis** | Turi mikroprocesorių, CAN ryšio lustą ir šildytuvo valdymo grandinę. Apdoroja neapdorotą zondo mV signalą į galutinę ppm (dalys milijonui) vertę ECU. | Sumontuotas nuotoliniu būdu ant laidyno, dažnai uždengtas aliuminiu. | Elektriniai trumpieji jungimai, įtampos šuolių pažeidimai, CAN ryšio gedimas. |
 
-### **Connecting Fault Types to Components**
+### **Gedimo Tipų Susiejimas su Komponentais**
 
-The type of DTC or symptom can often point directly to the failing component:
+DTC tipas ar simptomas dažnai gali tiesiogiai nurodyti gedimą patyrusį komponentą:
 
-* **Probe-Related Faults (Gradual/Chemical):**
-    * **Signal Drift/Slow Response:** Indication that the sensing elements are chemically poisoned or physically blocked by soot. The ECU detects implausible or sluggish readings, typically logging P229F (Sensor Performance/Drift).
-    * **Heater Element Break:** The physical heater in the probe has failed, leading to an open circuit DTC.
+* **Su Zondu Susiję Gedimai (Laipsniški/Cheminiai):**
+    * **Signalo Nukrypimas/Lėtas Atsakas:** Rodo, kad jutimo elementai yra chemiškai apnuodyti arba fiziškai užblokuoti suodžiais. ECU aptinka neįtikėtinus ar vangius rodmenis, paprastai registruojant P229F (Jutiklio Veikimas/Nukrypimas).
+    * **Kaitinimo Elemento Nutrūkimas:** Fizinis šildytuvas zonde sugedo, sukeliantis atviros grandinės DTC.
 
-* **Module-Related Faults (Immediate/Electrical):**
-    * **CAN Communication Failure:** The module's processor or transceiver chip has failed, preventing it from broadcasting data. This logs U-codes (Communication Errors).
-    * **Voltage Supply Error:** The module's internal power regulators are damaged, often due to high voltage spikes, leading to an immediate shutdown and power-related DTCs.
+* **Su Moduliu Susiję Gedimai (Momentiniai/Elektriniai):**
+    * **CAN Ryšio Gedimas:** Modulio procesorius ar siųstuvo-imtuvo lustas sugedo, nebeleidžiant transliuoti duomenų. Tai registruoja U-kodai (Ryšio Klaidos).
+    * **Įtampos Tiekimo Klaida:** Modulio vidiniai galios reguliatoriai yra pažeisti, dažnai dėl aukštos įtampos šuolių, sukeliant momentinį išsijungimą ir su galia susijusius DTC.
 
-### **Our Integrated Quality Approach**
+### **Mūsų Integruotas Kokybės Požiūris**
 
-While some aftermarket providers attempt to separate and replace only the probe or the module, modern OEM standards mandate replacement of the complete unit.
+Nors kai kurie atsarginių dalių tiekėjai bando atskirti ir pakeisti tik zondą ar tik modulį, šiuolaikiniai OĮG standartai reikalauja keisti visą mazgą.
 
-* **Guaranteed Calibration:** The probe and module are precisely matched and calibrated during manufacturing. Replacing only one component risks permanent calibration inaccuracy.
-* **Reliability:** Our complete NOx sensor assemblies ensure that the delicate communication and power supply between the probe and module are guaranteed to function as designed, providing a reliable, long-term fix.
+* **Garantuotas Kalibravimas:** Zondas ir modulis yra tiksliai suderinami ir kalibruojami gamybos metu. Pakeitus tik vieną komponentą, kyla nuolatinio kalibravimo netikslumo rizika.
+* **Patikimumas:** Mūsų pilni NOx jutiklių mazgai užtikrina, kad subtilus ryšys ir maitinimas tarp zondo ir modulio garantuotai veiktų taip, kaip numatyta, užtikrinant patikimą ir ilgalaikį remontą.
 
-Choosing a complete, high-quality replacement unit is the most professional way to restore the accuracy and compliance of the SCR system.
-
----
+Pasirinkimas pilno, aukštos kokybės pakaitinio mazgo yra profesionaliausias būdas atkurti SCR sistemos tikslumą ir atitiktį reikalavimams.
