@@ -1,85 +1,78 @@
 ---
 linkTitle: "guide-to-procurement"
-title: Guide to procurement
-description: How to Purchase Our Products
+title: Pirkimo gidas
+description: Kaip įsigyti mūsų produktus
 breadcrumbs: true
 date: "2025-10-19T00:35:28+08:00"
 draft: false
 ---
-If you are viewing this page, you are interested in our products! Whatever your questions, concerns, or needs, please **immediately send an email to fortisor@163.com**. You may write the email in your native language, and we will reply to you as quickly as possible.
+Jei peržiūrite šį puslapį, vadinasi, domitės mūsų produktais! Kad ir kokie būtų jūsų klausimai, rūpesčiai ar poreikiai, prašome **nedelsiant siųsti el. laišką adresu fortisor@163.com**. Galite rašyti gimtąja kalba, o mes jums atsakysime kuo greičiau.
 
-As you can see, our website does not display product prices or offer a direct online ordering function. This approach is based on the following reasons, which ultimately benefit our customers:
+Kaip matote, mūsų svetainėje nerodomos produktų kainos ir nesiūloma tiesioginio užsakymo internetu funkcijos. Šis požiūris grindžiamas toliau nurodytomis priežastimis, kurios galiausiai naudingos mūsų klientams:
 
-* **1. Product Diversity and User Experience:** NOx sensors come in a vast variety of models and specifications. Listing every single model and spec for direct ordering would make the website overwhelmingly complex, resulting in a poor user experience.
-* **2. Global Supply Complexity:** We supply our products worldwide, and different countries have significant variations in tariffs, taxes, shipping costs, and customs regulations. Direct online pricing cannot accurately account for these differences.
-* **3. High Transaction Costs:** Online payment services for direct customer orders typically charge a minimum of 3% per transaction. As our products are mainly for large-volume, business-to-business (B2B) procurement, this 3% fee would substantially increase your overall sourcing cost.
-* **4. Protecting Customer Profit Margins:** Making our wholesale prices transparent could negatively impact our distributors and partners. They need sufficient profit margins when reselling our products, and price transparency would compress their pricing space.
-* **5. Building Long-Term Partnerships:** We aim to establish long-term, stable cooperation, not just single, one-off transactions. We prefer to communicate via email to understand your specific needs, allowing us to provide better tailored products and superior service.
+* **1. Produktų įvairovė ir naudotojo patirtis:** NOx jutikliai pasižymi didele modelių ir specifikacijų įvairove. Išvardijus kiekvieną atskirą modelį ir specifikaciją tiesioginiam užsakymui, svetainė taptų itin sudėtinga, o tai pablogintų naudotojo patirtį.
+* **2. Pasaulinio tiekimo sudėtingumas:** Mes tiekiame savo produktus visame pasaulyje, o skirtingose šalyse yra reikšmingi tarifų, mokesčių, siuntimo išlaidų ir muitinės taisyklių skirtumai. Tiesioginis kainų nustatymas internetu negali tiksliai atsižvelgti į šiuos skirtumus.
+* **3. Didelės sandorių išlaidos:** Mokėjimo internetu paslaugos už tiesioginius klientų užsakymus paprastai apmokestina mažiausiai 3% už sandorį. Kadangi mūsų produktai daugiausia skirti didelės apimties, verslas-verslui (B2B) pirkimams, šis 3% mokestis iš esmės padidintų jūsų bendras tiekimo išlaidas.
+* **4. Klientų pelno maržų apsauga:** Mūsų didmeninių kainų skaidrumas galėtų neigiamai paveikti mūsų platintojus ir partnerius. Jiems reikia pakankamų pelno maržų perparduodant mūsų produktus, o kainų skaidrumas suspaustų jų kainodaros erdvę.
+* **5. Ilgalaikių partnerysčių kūrimas:** Mūsų tikslas – užmegzti ilgalaikį, stabilų bendradarbiavimą, o ne tik vienkartinius sandorius. Mes teikiame pirmenybę bendravimui el. paštu, kad suprastume jūsų specifinius poreikius, leidžiant mums pateikti geriau pritaikytus produktus ir aukštesnės kokybės paslaugas.
 
-**Therefore, please contact us directly via email.** We will provide you with the most suitable product recommendations and a precise quotation tailored to your requirements.
+**Todėl, prašome susisiekti su mumis tiesiogiai el. paštu.** Mes pateiksime jums tinkamiausias produktų rekomendacijas ir tikslią, pagal jūsų reikalavimus pritaikytą kainos pasiūlymą.
 
-***
+## 💡 Trūkstami dalių numeriai (OE/Dalių numeriai)
 
-## 💡 Missing Part Numbers (OE/Part Numbers)
+Suprantame, kad mūsų svetainėje nurodyti originalios įrangos (OE) ar dalių numeriai gali būti ne visapusiški. **Jei nerandate reikiamo konkretaus OE numerio, prašome rašyti mums tiesiogiai el. paštu.** Tikėtina, kad turime atitinkamą produktą, atitinkantį jūsų poreikius.
 
-We understand that the Original Equipment (OE) or part numbers listed on our website may not be comprehensive. **If you cannot find the specific OE number you require, please email us directly.** We likely have the corresponding product available to meet your needs.
 
-***
+## ❓ Dažnai Užduodami Klausimai (DUK)
 
-## ❓ Frequently Asked Questions (FAQ)
+Apibendrinome šiuos dažniausiai pasitaikančius klausimus, susijusius su klientų pirkimo poreikiais ir rūpesčiais:
 
-We have summarized the following common questions regarding customer procurement needs and concerns:
+### **1. Kokia yra jūsų produktų kokybė ir garantija?**
 
-### **1. What is the quality and warranty of your products?**
+Mūsų **NOx jutikliai** naudoja **NGK Company** jutimo zondus, kurie siūlo pramonėje pirmaujančią jutimo stabilumą. Tai veiksmingai užkerta kelią jutimo netikslumams, kuriuos sukelia signalo dreifas. Be to, mūsų ECU naudoja **automobilinės klasės lustus**. Tiek zondo, tiek lusto kokybė yra geresnė nei daugelio įprastų antrinės rinkos NOx jutiklių, esančių rinkoje.
 
-Our **NOx Sensors** use sensing probes from the **NGK Company**, which offers industry-leading sensing stability. This effectively prevents sensing inaccuracies caused by signal drift. Furthermore, our ECUs utilize **automotive-grade chips**. The quality of both the probe and the chip are superior to many common aftermarket NOx sensors on the market.
+* **Garantija:** Mūsų **NOx jutikliams** platintojams suteikiame **15 mėnesių garantiją**. Mūsų **AdBlue siurblys / karbamido dozavimo modulis** produktams taikoma **12 mėnesių garantija**.
 
-* **Warranty:** We provide a **15-month warranty** for our **NOx Sensors** to our distributors. Our **AdBlue Pump / Urea Dosing Module** products carry a **12-month warranty**.
+### **2. Kokia yra jūsų produktų kainodara? Ar galite pasiūlyti nuolaidų?**
 
-### **2. What is your product pricing like? Can you offer discounts?**
+Mūsų kainos yra žymiai **žemesnės nei OEM/Originalių** dalių, bet šiek tiek aukštesnės nei kai kurių žemos kokybės antrinės rinkos NOx jutiklių. Mes nenaudojame mažų kainų klientams pritraukti, nes sukurti stabilų automobilių dalių verslą yra sudėtinga. Sukūrus kokybe grindžiamą partnerystę, atsiranda ilgalaikis, abipusiai naudingas bendradarbiavimas, kurio negali užtikrinti žemos kokybės produktai.
 
-Our prices are significantly **lower than OEM/Original** parts but are slightly higher than some low-quality aftermarket NOx sensors. We do not use low prices to attract customers because establishing a stable automotive parts business is challenging. Once established, a quality-based partnership leads to long-term, win-win cooperation, which low-quality products cannot guarantee.
+Tai, kad mūsų kainos yra daug mažesnės nei OEM dalių, nereiškia, kad kokybė yra žymiai prastesnė. OEM dalys yra brangesnės visų pirma dėl:
 
-Our prices being much lower than OEM parts does not mean the quality is significantly inferior. OEM parts are more expensive primarily due to:
+* **Didelių išeigos normos išlaidų:** Itin didelės išeigos normos (pvz., 99,99%, o ne 99,9%) pasiekimas reikalauja didžiulių mokslinių tyrimų ir plėtros bei bandymų investicijų, kurios atsispindi kaina.
+* **Prekės ženklo priemoka:** Didelė dalis išlaidų yra skirta prekės ženklo vertei, kuri neturi įtakos faktinei kokybei ar veikimui.
+* **Ilgalaikis atsargų laikymas:** OEM gamintojai turi kaupti atsargas daugelį metų po pardavimo aptarnavimui, o susijusios kapitalo ir valdymo išlaidos yra įskaičiuotos į kainą.
+* **Transporto priemonių kaštų subsidijos:** OEM gamintojai dažnai naudoja priedus didesniam pelnui gauti, kas gali subsidijuoti visos transporto priemonės kainą.
 
-* **High Yield Rate Costs:** Achieving ultra-high yield rates (e.g., 99.99% vs. 99.9%) requires massive R&D and testing investment, reflected in the price.
-* **Brand Premium:** A significant portion of the cost is for brand value, which does not impact the actual quality or performance.
-* **Long-Term Stocking:** OEMs must stock parts for many years of after-sales service, and the associated capital and management costs are built into the price.
-* **Vehicle Cost Subsidies:** OEMs often use accessories to generate higher profits, which can subsidize the cost of the complete vehicle.
+**Nuolaidų politika:** Mes skatiname klientus pirmiausia užsisakyti **pavyzdį**, tada pereiti prie **mažos partijos užsakymo** ir palaipsniui didinti apimtį, kai bendradarbiavimas stabilizuojasi. Mes siūlome **pakopinę nuolaidų politiką**, pagrįstą pirkimo apimtimi; kuo didesnis užsakymas, tuo didesnė nuolaida.
 
-**Discount Policy:** We encourage customers to order a **sample first**, then proceed with a **small batch order**, and gradually increase the volume as the cooperation stabilizes. We offer a **tiered discount policy** based on purchasing volume; the larger the order, the greater the discount.
+### **3. Koks yra jūsų pristatymo laikas?**
 
-### **3. What is your lead time for delivery?**
+Užsakymams iki **100 vienetų** paprastai galime išsiųsti per **48 valandas**. Didesniems nei 100 vienetų užsakymams mes pateiksime konkretų pristatymo laiką, atsižvelgdami į aplinkybes, tačiau jis paprastai **neviršys 3–5 dienų**.
 
-For orders up to **100 units**, we can generally ship within **48 hours**. For larger orders exceeding 100 units, we will provide a specific delivery time based on the circumstances, but it typically **will not exceed 3–5 days**.
+### **4. Kokie yra jūsų siuntimo būdai ir išlaidos?**
 
-### **4. What are your shipping methods and costs?**
+Paprastai naudojame tarptautines greitojo pašto paslaugas, tokias kaip **DHL, FedEx ir UPS**. Siuntimo išlaidos skiriasi priklausomai nuo paskirties šalies ir regiono, tačiau pristatymas paprastai gali būti atliktas į daugumą šalių visame pasaulyje per **10 dienų**. Siuntimo išlaidos bus nurodytos kartu su produkto kaina.
 
-We typically use international express services such as **DHL, FedEx, and UPS**. Shipping costs vary depending on the destination country and region, but delivery can generally be made to most countries worldwide within **10 days**. The shipping cost will be quoted alongside the product price.
+### **5. Kokius mokėjimo būdus priimate?**
 
-### **5. Which payment methods do you accept?**
+Mes stengsimės pateikti **vietinę banko sąskaitą** jūsų šalyje, kad sutaupytumėte tarptautinių pervedimų mokesčius. Jei tai neįmanoma, galime priimti tarpvalstybinius pervedimus į mūsų **Honkongo banko sąskaitą** arba pateikti jums saugią **mokėjimo kreditine kortele nuorodą internetu** (naudojant „Alibaba“ mokėjimo paslaugas).
 
-We will try our best to provide a **local bank account** in your country to save you international transfer fees. If this is not possible, we can accept cross-border transfers to our **Hong Kong bank account** or provide you with a secure **online credit card payment link** (powered by Alibaba payment services).
+### **6. Ar galite pateikti sąskaitas faktūras ir padėti su muitine?**
 
-### **6. Can you provide invoices and assist with customs?**
+Mes galime pateikti oficialią sąskaitą faktūrą. **HS kodas** ir deklaruojama **Muitinės vertė** gali būti koreguojami pagal jūsų reikalavimus, siekiant padėti sumažinti mokesčius ar atitikti specifinius muitinės apribojimus jūsų šalyje.
 
-We can provide a formal invoice. The **HS Code** and declared **Customs Value** can be adjusted according to your requirements to help reduce taxes or meet specific customs restrictions in your country.
+### **7. Ar siūlote OEM/ODM paslaugas?**
 
-### **7. Do you offer OEM/ODM services?**
+Taip, mes siūlome **OEM/ODM paslaugas**, atsižvelgdami į klientų poreikius. Tai apima, bet neapsiriboja: **logotipo ir prekės pavadinimo** pritaikymu ant NOx produkto paviršiaus, taip pat **pritaikytas pakavimo dėžes**. Prašome susisiekti su mumis el. paštu, kad aptartumėte savo specifinius pritaikymo reikalavimus.
 
-Yes, we offer **OEM/ODM services** based on customer needs. This includes, but is not limited to: customizing the **logo and brand name** on the NOx product surface, as well as **custom packaging boxes**. Please contact us via email to discuss your specific customization requirements.
+## 🤝 Jūsų Bendravimo ir Pirkimo Procesas
 
-***
-
-## 🤝 Your Communication and Procurement Process
-
-1.  **Initial Contact:** **Immediately email fortisor@163.com** with any inquiries or requirements you have.
-2.  **Detail Confirmation:** We will communicate to confirm the product price, quantity, model, lead time, shipping method, and other necessary details.
-3.  **Quotation & Payment Info:** We will provide you with a formal quotation and the corresponding payment instructions.
-4.  **Payment Arrangement:** After confirming the quotation, you arrange the payment. We advise starting with a small batch order to build mutual trust, as we understand concerns about fund security.
-5.  **Shipment:** Upon receiving the payment, we immediately arrange the shipment and provide you with the **tracking number** and necessary customs clearance documents (invoice, etc.).
-6.  **Customs Clearance:** You receive the customs/courier notification, pay any required duties/fees, and collect the goods.
-7.  **Goods Inspection:** Upon receiving the goods, inspect them for compliance with your order. Please contact us immediately if there are any issues; we will assist actively in resolving them.
-8.  **Next Order:** If you are satisfied with the product, we welcome continued procurement and will offer even better pricing and service based on your order volume.
-
-***
+1.  **Pradinis kontaktas:** **Nedelsiant rašykite el. laišką adresu fortisor@163.com** su visais jūsų turimais klausimais ar reikalavimais.
+2.  **Detalių patvirtinimas:** Bendrausime, kad patvirtintume produkto kainą, kiekį, modelį, pristatymo laiką, siuntimo būdą ir kitas būtinas detales.
+3.  **Kainos pasiūlymas ir mokėjimo informacija:** Pateiksime jums oficialų kainos pasiūlymą ir atitinkamas mokėjimo instrukcijas.
+4.  **Mokėjimo organizavimas:** Patvirtinus kainos pasiūlymą, jūs organizuojate mokėjimą. Patariame pradėti nuo mažos partijos užsakymo, kad sukurtumėte abipusį pasitikėjimą, nes suprantame susirūpinimą dėl lėšų saugumo.
+5.  **Siuntimas:** Gavę mokėjimą, nedelsiant organizuojame siuntimą ir pateikiame jums **sekimo numerį** bei reikalingus muitinės formalumų dokumentus (sąskaitą faktūrą ir kt.).
+6.  **Muitinės formalumų atlikimas:** Jūs gaunate muitinės/kurjerio pranešimą, sumokate visus reikalingus muitus/mokesčius ir atsiimate prekes.
+7.  **Prekių patikrinimas:** Gavę prekes, patikrinkite, ar jos atitinka jūsų užsakymą. Jei kyla kokių nors problemų, prašome nedelsiant susisiekti su mumis; mes aktyviai padėsime jas išspręsti.
+8.  **Kitas užsakymas:** Jei esate patenkinti produktu, džiaugiamės tęstiniu pirkimu ir pasiūlysime dar geresnes kainas bei paslaugas, atsižvelgdami į jūsų užsakymo apimtį.
