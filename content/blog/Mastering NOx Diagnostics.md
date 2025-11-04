@@ -1,37 +1,35 @@
 ---
-title: Mastering NOx Diagnostics
-description: Mastering NOx Diagnostics Using Inlet and Outlet Data for SCR Efficiency
+title: NOx diagnostikos įvaldymas
+description: NOx diagnostikos įvaldymas naudojant įleidimo ir išleidimo duomenis SCR efektyvumui nustatyti
 breadcrumbs: true
 date: "2023-12-10T00:35:28+08:00"
 draft: false
 ---
-### **Mastering NOx Diagnostics: Using Inlet and Outlet Data for SCR Efficiency**
+### **NOx diagnostikos įvaldymas: įleidimo ir išleidimo duomenų naudojimas SCR efektyvumui nustatyti**
 
-The primary function of the two NOx sensors in a vehicle's exhaust system is to enable the Engine Control Unit (ECU) to calculate the Selective Catalytic Reduction (SCR) conversion efficiency in real-time. This efficiency calculation is the key metric for both emissions control and onboard diagnostics (OBD).
+Pagrindinė dviejų NOx jutiklių, esančių transporto priemonės išmetimo sistemoje, funkcija – leisti variklio valdymo blokui (ECU) realiuoju laiku apskaičiuoti selektyviosios katalitinės redukcijos (SCR) konversijos efektyvumą. Šis efektyvumo skaičiavimas yra pagrindinis rodiklis tiek išmetamųjų teršalų kontrolei, tiek borto diagnostikai (OBD).
 
-### **The Core Calculation: SCR Conversion Efficiency**
+### **Pagrindinis skaičiavimas: SCR konversijos efektyvumas**
 
-The SCR system’s performance is quantified by how much NOx is converted into harmless N2 (Nitrogen) and H2O (Water). The ECU uses a simple ratio of the two sensor readings to monitor this:
+SCR sistemos veikimas kiekybiškai įvertinamas pagal tai, kiek NOx paverčiama nekenksmingu N2 (azotu) ir H2O (vandeniu). ECU naudoja paprastą dviejų jutiklių rodmenų santykį šiam stebėjimui:
 
-> **SCR Conversion Efficiency (%) = ((Inlet NOx - Outlet NOx) / Inlet NOx) x 100**
+> **SCR konversijos efektyvumas (%) = ((Įleidimo NOx – Išleidimo NOx) / Įleidimo NOx) x 100**
 
-### **Interpreting Live Data Scenarios**
+### **Tiesioginių duomenų scenarijų interpretavimas**
 
-Analyzing the relationship between the Upstream (Inlet) and Downstream (Outlet) NOx readings helps pinpoint the root cause of an emissions fault:
+Įleidimo (Upstream) ir išleidimo (Downstream) NOx rodmenų santykio analizė padeda nustatyti pagrindinę išmetamųjų teršalų gedimo priežastį:
 
-| Inlet NOx Reading | Outlet NOx Reading | SCR Efficiency | Diagnosis |
+| Įleidimo NOx rodmuo | Išleidimo NOx rodmuo | SCR efektyvumas | Diagnozė |
 | :--- | :--- | :--- | :--- |
-| **High (~800 ppm)** | **Low (~100 ppm)** | **High (~87% - 90%)** | **System Healthy:** DEF dosing is correct, and the SCR catalyst is active. |
-| **High** | **High (≈ Inlet)** | **Low (~0% - 30%)** | **Catalyst or Dosing Failure:** The SCR is not reducing NOx. Check DEF system first, then suspect catalyst degradation. |
-| **Implausible/Stuck** | **Normal** | **Invalid** | **Inlet Sensor Failure:** The ECU cannot trust the Inlet reading, leading to improper dosing (often based on a backup model). **Replace Inlet Sensor.** |
-| **Normal** | **Implausible/Stuck** | **Invalid** | **Outlet Sensor Failure:** The ECU cannot verify compliance. **Replace Outlet Sensor.** |
+| **Didelis (~800 ppm)** | **Mažas (~100 ppm)** | **Didelis (~87% - 90%)** | **Sistema veikia normaliai:** DEF dozavimas yra teisingas, o SCR katalizatorius aktyvus. |
+| **Didelis** | **Didelis (≈ Įleidimo)** | **Mažas (~0% - 30%)** | **Katalizatoriaus arba dozavimo gedimas:** SCR nesumažina NOx. Pirmiausia patikrinkite DEF sistemą, tada įtarkite katalizatoriaus degradaciją. |
+| **Nepagrįstas/įstrigęs** | **Normalus** | **Netinkamas** | **Įleidimo jutiklio gedimas:** ECU negali pasitikėti Įleidimo rodmeniu, todėl dozavimas yra netinkamas (dažnai remiantis atsarginiu modeliu). **Pakeiskite Įleidimo jutiklį.** |
+| **Normalus** | **Nepagrįstas/įstrigęs** | **Netinkamas** | **Išleidimo jutiklio gedimas:** ECU negali patikrinti atitikties. **Pakeiskite Išleidimo jutiklį.** |
 
-### **The OBD Monitor and Failure Thresholds**
+### **OBD monitorius ir gedimų slenksčiai**
 
-The ECU constantly monitors this efficiency ratio. If the calculated SCR efficiency drops below a legally mandated OBD threshold (e.g., 80%) for a specified driving period, the ECU logs an efficiency fault code (P420 or P20EE equivalent).
+ECU nuolat stebi šį efektyvumo santykį. Jei apskaičiuotas SCR efektyvumas nukrenta žemiau teisiškai nustatyto OBD slenksčio (pvz., 80 %) nustatytam važiavimo laikotarpiui, ECU užfiksuoja efektyvumo gedimo kodą (P420 arba P20EE atitikmenį).
 
-Crucially, an incorrect reading from **either** the Inlet or the Outlet NOx sensor will skew this calculation, leading the ECU to incorrectly flag a catalyst or dosing failure, resulting in unnecessary repair costs.
+Svarbu tai, kad neteisingas rodmuo iš **bet kurio** – tiek Įleidimo, tiek Išleidimo NOx jutiklio – iškreips šį skaičiavimą, todėl ECU neteisingai pažymės katalizatoriaus arba dozavimo gedimą, o tai sukels nereikalingų remonto išlaidų.
 
-Our sensors provide validated, stable, and synchronous readings, ensuring the ECU's efficiency calculation is always based on reliable data, allowing technicians to trust the system’s diagnostic conclusions.
-
----
+Mūsų jutikliai teikia patvirtintus, stabilius ir sinchroniškus rodmenis, užtikrinančius, kad ECU efektyvumo skaičiavimas visada remtųsi patikimais duomenimis, o tai leidžia technikams pasitikėti sistemos diagnostinėmis išvadomis.

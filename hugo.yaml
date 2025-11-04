@@ -1,6 +1,6 @@
-baseURL: https://fortisor.com/
+baseURL: https://lt.fortisor.com/
 languageCode: en-us
-title: Fortisor NOx Sensor
+title: Fortisor NOx Jutiklis
 module:
   imports:
     - path: github.com/imfing/hextra
@@ -9,15 +9,15 @@ disablePathToLower: true
 menu:
   main:
     - identifier: NOx-Sensor
-      name: NOx Sensor
+      name: NOx jutiklis
       weight: 1
       pageRef: /products/nox-sensor/mercedes-benz
     - identifier: Products
-      name: Products
+      name: Produktai
       weight: 1
     - identifier: nox-sensor
       weight: 1
-      name: NOx Sensor
+      name: NOx jutiklis
       pageRef: /products/nox-sensor
       parent: Products
     # - identifier: urea-dosing-module
@@ -31,16 +31,16 @@ menu:
     #   pageRef: /products/tester
     #   parent: Products
     #   breadcrumbs: true
-    - name: Blog
+    - name: Tinklaraščiai
       pageRef: /blog
       weight: 2
-    - name: Contact
+    - name: Kontaktai
       pageRef: /Contact
       weight: 3
-    - name: About
+    - name: Apie mus
       pageRef: /about
       weight: 4
-    - name: Search
+    - name: Ieškoti
       weight: 5
       params:
         type: search

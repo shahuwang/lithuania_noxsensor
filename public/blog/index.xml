@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fortisor NOx Sensor – Blog</title>
+    <title>Fortisor NOx Jutiklis – Blog</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blog on Fortisor NOx Sensor</description>
+    <description>Recent content in Blog on Fortisor NOx Jutiklis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Oct 2025 00:35:28 +0800</lastBuildDate>
@@ -172,7 +172,7 @@
     </item>
     
     <item>
-      <title>The Art of Diagnostics Interpreting NOx Sensor Live Data</title>
+      <title>Diagnostikos menas NOx jutiklio tiesioginių duomenų interpretavimas</title>
       <link>http://localhost:1313/blog/Interpreting-NOx-Sensor-Live-Data/</link>
       <pubDate>Thu, 31 Oct 2024 00:35:28 +0800</pubDate>
       
@@ -180,55 +180,57 @@
       <description>
         
         
-        &lt;p&gt;Effective SCR system repair requires moving beyond simple fault code reading and diving into the sensor&amp;rsquo;s live data stream. This real-time information is the key to accurately diagnosing issues, whether the problem lies with the sensor itself or with the broader emissions system (such as DEF dosing or the SCR catalyst).&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;1. Upstream vs. Downstream NOx Comparison (Conversion Efficiency)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-upstream-vs-downstream-nox-comparison-conversion-efficiency&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-upstream-vs-downstream-nox-comparison-conversion-efficiency&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The most critical diagnostic function is comparing the readings of the two NOx sensors.&lt;/p&gt;
+        &lt;h2&gt;Išsami diagnostika: „NOx“ jutiklio realiojo laiko duomenų interpretavimas&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;išsami-diagnostika-nox-jutiklio-realiojo-laiko-duomenų-interpretavimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#i%c5%a1sami-diagnostika-nox-jutiklio-realiojo-laiko-duomen%c5%b3-interpretavimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Efektyviam SCR sistemos remontui reikia ne tik nuskaityti gedimų kodus, bet ir įsigilinti į jutiklio realiojo laiko duomenų srautą. Ši realiojo laiko informacija yra raktas į tikslią problemų, nesvarbu, ar jos susijusios su pačiu jutikliu, ar su platesne išmetamųjų teršalų sistema (pvz., DEF dozavimu arba SCR katalizatoriumi), diagnostiką.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;1. Prieš srovę ir Pasroviui esančių „NOx“ jutiklių palyginimas (konversijos efektyvumas)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-prieš-srovę-ir-pasroviui-esančių-nox-jutiklių-palyginimas-konversijos-efektyvumas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-prie%c5%a1-srov%c4%99-ir-pasroviui-esan%c4%8di%c5%b3-nox-jutikli%c5%b3-palyginimas-konversijos-efektyvumas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Svarbiausia diagnostikos funkcija yra palyginti dviejų „NOx“ jutiklių rodmenis.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Upstream Sensor (Inlet):&lt;/strong&gt; Measures the NOx concentration entering the SCR catalyst. This value reflects engine-out NOx.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Downstream Sensor (Outlet):&lt;/strong&gt; Measures the NOx concentration exiting the SCR catalyst. This value reflects tailpipe NOx.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interpretation:&lt;/strong&gt; In a healthy, warmed-up SCR system, the Outlet NOx reading must be significantly lower than the Inlet NOx reading. A healthy SCR conversion efficiency is typically &lt;strong&gt;80% or higher&lt;/strong&gt;.
+&lt;li&gt;&lt;strong&gt;Prieš srovę esantis jutiklis (įvade):&lt;/strong&gt; matuoja „NOx“ koncentraciją, patenkančią į SCR katalizatorių. Ši vertė atspindi „NOx“ iš variklio.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pasroviui esantis jutiklis (išvade):&lt;/strong&gt; matuoja „NOx“ koncentraciją, išeinančią iš SCR katalizatoriaus. Ši vertė atspindi „NOx“ išmetimo vamzdyje.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interpretacija:&lt;/strong&gt; sveikoje, įšilusioje SCR sistemoje „NOx“ rodmuo išvade turi būti žymiai mažesnis nei „NOx“ rodmuo įvade. Sveikas SCR konversijos efektyvumas paprastai yra &lt;strong&gt;80 % arba didesnis&lt;/strong&gt;.
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;If both Inlet and Outlet readings are high and nearly identical, it often indicates a failed SCR catalyst, a severe DEF dosing problem, or a failure in one of the NOx sensors.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Jei tiek įvado, tiek išvado rodmenys yra aukšti ir beveik identiški, tai dažnai rodo sugedusį SCR katalizatorių, rimtą DEF dozavimo problemą arba vieno iš „NOx“ jutiklių gedimą&lt;/em&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;2. Decoding Ammonia Cross-Sensitivity (The Slip Indicator)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-decoding-ammonia-cross-sensitivity-the-slip-indicator&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-decoding-ammonia-cross-sensitivity-the-slip-indicator&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;NOx sensors utilize electrochemical principles that make them inherently cross-sensitive to Ammonia (NH3), the active reductant in DEF. This apparent flaw is used as a safety feature.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;2. Amoniako kryžminio jautrumo dekodavimas (pratekėjimo indikatorius)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-amoniako-kryžminio-jautrumo-dekodavimas-pratekėjimo-indikatorius&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-amoniako-kry%c5%beminio-jautrumo-dekodavimas-pratek%c4%97jimo-indikatorius&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;„NOx“ jutikliai naudoja elektrocheminius principus, dėl kurių jie yra jautrūs amoniakui ($NH_3$), aktyviam reduktoriui DEF. Šis akivaizdus trūkumas naudojamas kaip saugos funkcija.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;What to Look For:&lt;/strong&gt; If the DEF dosing rate is too high, unreacted NH3 will &amp;ldquo;slip&amp;rdquo; past the SCR catalyst. When the downstream NOx sensor detects this NH3 slip, its output reading will &lt;strong&gt;temporarily spike upward&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interpretation:&lt;/strong&gt; A sudden high reading from the Outlet NOx sensor that does not correlate with engine load changes is often an indicator of &lt;strong&gt;Ammonia Slip&lt;/strong&gt;, not a NOx spike. This points toward an issue with DEF dosing control, not necessarily a failed NOx sensor.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Our Advantage:&lt;/strong&gt; Our sensors provide highly stable signal output, making it easier for the ECU to distinguish between true NOx fluctuations and NH3 cross-sensitivity spikes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Į ką atkreipti dėmesį:&lt;/strong&gt; jei DEF dozavimo greitis yra per didelis, nesureagavęs $NH_3$ „pratekės“ pro SCR katalizatorių. Kai pasroviui esantis „NOx“ jutiklis aptinka šį $NH_3$ pratekėjimą, jo išvesties rodmuo &lt;strong&gt;laikinai šoktels aukštyn&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interpretacija:&lt;/strong&gt; staigus didelis „NOx“ jutiklio išvade rodmuo, kuris nesusijęs su variklio apkrovos pokyčiais, dažnai yra &lt;strong&gt;amoniako pratekėjimo&lt;/strong&gt;, o ne „NOx“ šuolio, rodiklis. Tai rodo problemą su DEF dozavimo valdymu, o ne būtinai sugedusį „NOx“ jutiklį.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mūsų pranašumas:&lt;/strong&gt; mūsų jutikliai užtikrina labai stabilų signalo išėjimą, todėl ECU lengviau atskirti tikruosius „NOx“ svyravimus nuo $NH_3$ kryžminio jautrumo šuolių.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;3. Monitoring Internal Status Parameters&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-monitoring-internal-status-parameters&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-monitoring-internal-status-parameters&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Advanced diagnostic tools allow technicians to view internal sensor parameters, which are often the first signs of impending failure.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;3. Vidinės būsenos parametrų stebėjimas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-vidinės-būsenos-parametrų-stebėjimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-vidin%c4%97s-b%c5%absenos-parametr%c5%b3-steb%c4%97jimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Išplėstiniai diagnostikos įrankiai leidžia technikams peržiūrėti vidinius jutiklio parametrus, kurie dažnai yra pirmieji gresiančio gedimo požymiai.&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Parameter&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Function&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Interpretation of Deviation&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Parametras&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Funkcija&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Nukrypimo interpretacija&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Internal Sensor Temperature&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Actual temperature of the sensing element.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;If the value is too low or unstable when the engine is warm, suspect a heater circuit or power supply issue.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Vidinė jutiklio temperatūra&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Faktinė jutimo elemento temperatūra.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jei varikliui įšilus vertė yra per maža arba nestabili, įtarkite šildytuvo grandinės arba maitinimo šaltinio problemą.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Heater Current&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Electrical current being drawn by the heating element.&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Abnormally high or low current draw suggests a failing heating element or module power issue.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Šildytuvo srovė&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Elektrinė srovė, kurią naudoja kaitinimo elementas.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Neįprastai didelis arba mažas srovės suvartojimas rodo gendančią kaitinimo elementą arba modulio maitinimo problemą.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Sensor Status Flags&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;Binary code indicating the sensor&amp;rsquo;s current operating mode (e.g., Heating, Measuring, Error).&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;If the flag is stuck on &amp;ldquo;Heating&amp;rdquo; or &amp;ldquo;Error&amp;rdquo; for too long, the sensor is likely malfunctioning internally.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Jutiklio būsenos vėliavėlės&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Dvejetainis kodas, nurodantis dabartinį jutiklio veikimo režimą (pvz., Šildymas, Matavimas, Klaida).&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Jei vėliavėlė per ilgai užstrigo ties „Šildymas“ arba „Klaida“, tikėtina, kad jutiklis sugedo viduje.&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;By mastering the interpretation of these live data streams, maintenance teams can accurately pinpoint the root cause of emission faults, drastically reducing downtime and preventing unnecessary component replacement.&lt;/p&gt;
+&lt;p&gt;Įvaldydamos šių realiojo laiko duomenų srautų interpretavimą, techninės priežiūros komandos gali tiksliai nustatyti išmetamųjų teršalų gedimų pagrindinę priežastį, drastiškai sumažindamos prastovos laiką ir užkirsdamos kelią nereikalingam komponentų keitimui.&lt;/p&gt;
 &lt;hr&gt;
+&lt;p&gt;Ar norėtumėte, kad patikrinčiau bet kurį konkretų terminą, susijusį su „NOx“ jutikliais ar SCR sistemomis, lietuvių kalba?&lt;/p&gt;
 
       </description>
     </item>
@@ -275,7 +277,7 @@
     </item>
     
     <item>
-      <title>Engineering NOx Sensors for 850,000-Mile Durability</title>
+      <title>Inžineriniai NOx jutikliai, skirti 850 000 mylių patvarumui</title>
       <link>http://localhost:1313/blog/Engineering-NOx-Sensors-for-Durability/</link>
       <pubDate>Sun, 12 May 2024 00:35:28 +0800</pubDate>
       
@@ -283,27 +285,27 @@
       <description>
         
         
-        &lt;h3&gt;&lt;strong&gt;The Road to CARB 2027: Engineering NOx Sensors for 850,000-Mile Durability&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-road-to-carb-2027-engineering-nox-sensors-for-850000-mile-durability&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-road-to-carb-2027-engineering-nox-sensors-for-850000-mile-durability&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The push towards ultra-low NOx emissions, particularly with regulations like CARB 2027 in North America and equivalent global standards, requires a revolutionary shift in component design. For the NOx sensor, this means designing for an unprecedented service life, potentially up to &lt;strong&gt;850,000 miles (1,360,000 km)&lt;/strong&gt;. Achieving this &amp;ldquo;megamile&amp;rdquo; durability is our core engineering focus.&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;1. Extreme Endurance Against Chemical Poisoning&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-extreme-endurance-against-chemical-poisoning&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-extreme-endurance-against-chemical-poisoning&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Chemical poisoning is the primary limiter of sensor lifespan. Future sensors must be virtually immune to contaminants.&lt;/p&gt;
+        &lt;h3&gt;&lt;strong&gt;Kelias į CARB 2027: NOx jutiklių inžinerija 850 000 mylių ilgaamžiškumui&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kelias-į-carb-2027-nox-jutiklių-inžinerija-850-000-mylių-ilgaamžiškumui&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kelias-%c4%af-carb-2027-nox-jutikli%c5%b3-in%c5%beinerija-850-000-myli%c5%b3-ilgaam%c5%bei%c5%a1kumui&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Siekiant itin mažos NOx emisijos, ypač su tokiais reguliavimais kaip &lt;strong&gt;CARB 2027&lt;/strong&gt; Šiaurės Amerikoje ir lygiaverčiais pasauliniais standartais, reikalingas revoliucinis komponentų dizaino pokytis. NOx jutikliui tai reiškia projektavimą neprilygstamai tarnavimo trukmei, galbūt iki &lt;strong&gt;850 000 mylių (1 360 000 km)&lt;/strong&gt;. Pasiekti šį &amp;ldquo;megamilės&amp;rdquo; ilgaamžiškumą yra mūsų pagrindinis inžinerinis dėmesys.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;1. Ekstremalus atsparumas cheminiam nuodijimui&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-ekstremalus-atsparumas-cheminiam-nuodijimui&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-ekstremalus-atsparumas-cheminiam-nuodijimui&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Cheminis nuodijimas yra pagrindinis jutiklio tarnavimo trukmės ribotuvas. Ateities jutikliai turi būti praktiškai &lt;strong&gt;atsparūs&lt;/strong&gt; teršalams.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Advanced Electrode Materials:&lt;/strong&gt; We use next-generation platinum-rhodium alloys and enhanced ceramic protective layers. These materials are highly selective to NOx and dramatically resistant to irreversible poisoning from sulfur and phosphorus found in fuel and oil ash.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Contaminant Sealing:&lt;/strong&gt; Improved sealing techniques prevent trace contaminants, especially road salt and moisture, from penetrating the sensor&amp;rsquo;s housing and migrating to the internal electronic components.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pažangios elektrodų medžiagos:&lt;/strong&gt; Naudojame naujos kartos platinos-rodžio lydinius ir patobulintus keramikinius apsauginius sluoksnius. Šios medžiagos yra &lt;strong&gt;labai selektyvios&lt;/strong&gt; NOx ir dramatiškai atsparios negrįžtamam nuodijimui siera ir fosforu, randamu kuro ir alyvos pelenuose.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Teršalų sandarinimas:&lt;/strong&gt; Patobulintos sandarinimo technikos užkerta kelią &lt;strong&gt;pėdsakų teršalams&lt;/strong&gt;, ypač kelių druskai ir drėgmei, prasiskverbti į jutiklio korpusą ir migruoti į vidinius elektroninius komponentus.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;2. Mastering Thermal and Mechanical Stress&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-mastering-thermal-and-mechanical-stress&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-mastering-thermal-and-mechanical-stress&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The lifespan requirement demands sensors that can withstand hundreds of thousands of extreme thermal cycles without cracking or drifting.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;2. Šiluminio ir mechaninio streso įvaldymas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-šiluminio-ir-mechaninio-streso-įvaldymas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%c5%a1iluminio-ir-mechaninio-streso-%c4%afvaldymas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Gyvavimo trukmės reikalavimas reikalauja jutiklių, kurie gali atlaikyti &lt;strong&gt;šimtus tūkstančių&lt;/strong&gt; ekstremalių šiluminių ciklų be įtrūkimų ar dreifo.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Optimized Zirconia Substrate:&lt;/strong&gt; We utilize ceramics with improved thermal expansion coefficients, minimizing the mechanical stress generated during rapid heating and cooling cycles. This prevents the formation of micro-cracks that cause signal drift.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Robust Housing Design:&lt;/strong&gt; The sensor&amp;rsquo;s stainless steel housing and internal dampening materials are engineered to absorb the high vibration inherent in heavy-duty diesel operations, protecting the delicate sensing element and electronic connections from mechanical failure over years of service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimizuotas cirkonio oksido substratas:&lt;/strong&gt; Naudojame keramiką su patobulintais šilumos plėtimosi koeficientais, &lt;strong&gt;minimzuodami mechaninį stresą&lt;/strong&gt;, generuojamą greito šildymo ir aušinimo ciklais. Tai apsaugo nuo mikroįtrūkimų, sukeliančių signalo dreifą, susidarymo.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tvirtas korpuso dizainas:&lt;/strong&gt; Jutiklio nerūdijančio plieno korpusas ir vidinės slopinimo medžiagos yra suprojektuotos taip, kad &lt;strong&gt;absorbuotų aukštą vibraciją&lt;/strong&gt;, būdingą sunkiasvorių dyzelinių variklių veikimui, apsaugant jautrų elementą ir elektronines jungtis nuo mechaninio gedimo per ilgus tarnavimo metus.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;3. Integrating Sensor Data for Predictive Maintenance&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-integrating-sensor-data-for-predictive-maintenance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-integrating-sensor-data-for-predictive-maintenance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Durability also involves software intelligence that leverages sensor data for longevity.&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;3. Jutiklių duomenų integravimas prognozuojamai priežiūrai&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-jutiklių-duomenų-integravimas-prognozuojamai-priežiūrai&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-jutikli%c5%b3-duomen%c5%b3-integravimas-prognozuojamai-prie%c5%bei%c5%abrai&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Ilgaamžiškumas taip pat apima programinę įrangą, kuri naudoja jutiklio duomenis ilgaamžiškumo tikslais.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Self-Diagnostics and Health Monitoring:&lt;/strong&gt; Future sensors will not only report NOx values but will also report their own &amp;ldquo;health status&amp;rdquo; (SOH) via CAN communication. This internal monitoring tracks parameters like heater degradation rate and internal resistance changes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Predictive Replacement:&lt;/strong&gt; By logging subtle signs of degradation long before a hard fault occurs, ECUs can trigger a predictive maintenance alert. This allows fleet managers to schedule sensor replacement during planned downtime, preventing catastrophic in-service failures and associated Limp Mode events.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Savaiminė diagnostika ir būklės stebėjimas:&lt;/strong&gt; Ateities jutikliai ne tik praneš NOx vertes, bet ir praneš apie savo &lt;strong&gt;&amp;ldquo;sveikatos būklę&amp;rdquo; (SOH)&lt;/strong&gt; per CAN ryšį. Šis vidinis stebėjimas seka tokius parametrus kaip šildytuvo degradacijos greitis ir vidinės varžos pokyčiai.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prognozinis pakeitimas:&lt;/strong&gt; Registruodami subtilius degradacijos ženklus ilgai prieš įvykstant rimtam gedimui, ECU gali inicijuoti &lt;strong&gt;prognozinės priežiūros įspėjimą&lt;/strong&gt;. Tai leidžia transporto parko valdytojams suplanuoti jutiklio pakeitimą planuojamos prastovos metu, užkertant kelią katastrofiškiems gedimams tarnavimo metu ir su jais susijusiems Avarinio režimo (Limp Mode) įvykiams.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;By focusing on these core areas of materials science, thermal management, and intelligent diagnostics, we are engineering NOx sensors that redefine endurance, ensuring our partners are ready for the strictest emissions mandates of the future.&lt;/p&gt;
+&lt;p&gt;Sutelkdami dėmesį į šias pagrindines medžiagų mokslo, šilumos valdymo ir išmaniosios diagnostikos sritis, inžinerijos specialistai kuria NOx jutiklius, kurie iš naujo apibrėžia ištvermę, užtikrindami, kad mūsų partneriai būtų pasirengę griežčiausiems ateities emisijos reikalavimams.&lt;/p&gt;
 
       </description>
     </item>
@@ -364,7 +366,7 @@
     </item>
     
     <item>
-      <title>Mastering NOx Diagnostics</title>
+      <title>NOx diagnostikos įvaldymas</title>
       <link>http://localhost:1313/blog/Mastering-NOx-Diagnostics/</link>
       <pubDate>Sun, 10 Dec 2023 00:35:28 +0800</pubDate>
       
@@ -372,57 +374,56 @@
       <description>
         
         
-        &lt;h3&gt;&lt;strong&gt;Mastering NOx Diagnostics: Using Inlet and Outlet Data for SCR Efficiency&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;mastering-nox-diagnostics-using-inlet-and-outlet-data-for-scr-efficiency&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#mastering-nox-diagnostics-using-inlet-and-outlet-data-for-scr-efficiency&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The primary function of the two NOx sensors in a vehicle&amp;rsquo;s exhaust system is to enable the Engine Control Unit (ECU) to calculate the Selective Catalytic Reduction (SCR) conversion efficiency in real-time. This efficiency calculation is the key metric for both emissions control and onboard diagnostics (OBD).&lt;/p&gt;
-&lt;h3&gt;&lt;strong&gt;The Core Calculation: SCR Conversion Efficiency&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-core-calculation-scr-conversion-efficiency&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-core-calculation-scr-conversion-efficiency&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The SCR system’s performance is quantified by how much NOx is converted into harmless N2 (Nitrogen) and H2O (Water). The ECU uses a simple ratio of the two sensor readings to monitor this:&lt;/p&gt;
+        &lt;h3&gt;&lt;strong&gt;NOx diagnostikos įvaldymas: įleidimo ir išleidimo duomenų naudojimas SCR efektyvumui nustatyti&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;nox-diagnostikos-įvaldymas-įleidimo-ir-išleidimo-duomenų-naudojimas-scr-efektyvumui-nustatyti&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#nox-diagnostikos-%c4%afvaldymas-%c4%afleidimo-ir-i%c5%a1leidimo-duomen%c5%b3-naudojimas-scr-efektyvumui-nustatyti&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Pagrindinė dviejų NOx jutiklių, esančių transporto priemonės išmetimo sistemoje, funkcija – leisti variklio valdymo blokui (ECU) realiuoju laiku apskaičiuoti selektyviosios katalitinės redukcijos (SCR) konversijos efektyvumą. Šis efektyvumo skaičiavimas yra pagrindinis rodiklis tiek išmetamųjų teršalų kontrolei, tiek borto diagnostikai (OBD).&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Pagrindinis skaičiavimas: SCR konversijos efektyvumas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pagrindinis-skaičiavimas-scr-konversijos-efektyvumas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pagrindinis-skai%c4%8diavimas-scr-konversijos-efektyvumas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;SCR sistemos veikimas kiekybiškai įvertinamas pagal tai, kiek NOx paverčiama nekenksmingu N2 (azotu) ir H2O (vandeniu). ECU naudoja paprastą dviejų jutiklių rodmenų santykį šiam stebėjimui:&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;SCR Conversion Efficiency (%) = ((Inlet NOx - Outlet NOx) / Inlet NOx) x 100&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;SCR konversijos efektyvumas (%) = ((Įleidimo NOx – Išleidimo NOx) / Įleidimo NOx) x 100&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/blockquote&gt;
-&lt;h3&gt;&lt;strong&gt;Interpreting Live Data Scenarios&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;interpreting-live-data-scenarios&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#interpreting-live-data-scenarios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Analyzing the relationship between the Upstream (Inlet) and Downstream (Outlet) NOx readings helps pinpoint the root cause of an emissions fault:&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;Tiesioginių duomenų scenarijų interpretavimas&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tiesioginių-duomenų-scenarijų-interpretavimas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tiesiogini%c5%b3-duomen%c5%b3-scenarij%c5%b3-interpretavimas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Įleidimo (Upstream) ir išleidimo (Downstream) NOx rodmenų santykio analizė padeda nustatyti pagrindinę išmetamųjų teršalų gedimo priežastį:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Inlet NOx Reading&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Outlet NOx Reading&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;SCR Efficiency&lt;/th&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;Diagnosis&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Įleidimo NOx rodmuo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Išleidimo NOx rodmuo&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;SCR efektyvumas&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Diagnozė&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;High (~800 ppm)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Low (~100 ppm)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;High (~87% - 90%)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;System Healthy:&lt;/strong&gt; DEF dosing is correct, and the SCR catalyst is active.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Didelis (~800 ppm)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Mažas (~100 ppm)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Didelis (~87% - 90%)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Sistema veikia normaliai:&lt;/strong&gt; DEF dozavimas yra teisingas, o SCR katalizatorius aktyvus.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;High&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;High (≈ Inlet)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Low (~0% - 30%)&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Catalyst or Dosing Failure:&lt;/strong&gt; The SCR is not reducing NOx. Check DEF system first, then suspect catalyst degradation.&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Didelis&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Didelis (≈ Įleidimo)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Mažas (~0% - 30%)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Katalizatoriaus arba dozavimo gedimas:&lt;/strong&gt; SCR nesumažina NOx. Pirmiausia patikrinkite DEF sistemą, tada įtarkite katalizatoriaus degradaciją.&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Implausible/Stuck&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Normal&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Invalid&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Inlet Sensor Failure:&lt;/strong&gt; The ECU cannot trust the Inlet reading, leading to improper dosing (often based on a backup model). &lt;strong&gt;Replace Inlet Sensor.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Nepagrįstas/įstrigęs&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Normalus&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Netinkamas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Įleidimo jutiklio gedimas:&lt;/strong&gt; ECU negali pasitikėti Įleidimo rodmeniu, todėl dozavimas yra netinkamas (dažnai remiantis atsarginiu modeliu). &lt;strong&gt;Pakeiskite Įleidimo jutiklį.&lt;/strong&gt;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Normal&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Implausible/Stuck&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Invalid&lt;/strong&gt;&lt;/td&gt;
-          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Outlet Sensor Failure:&lt;/strong&gt; The ECU cannot verify compliance. &lt;strong&gt;Replace Outlet Sensor.&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Normalus&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Nepagrįstas/įstrigęs&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Netinkamas&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Išleidimo jutiklio gedimas:&lt;/strong&gt; ECU negali patikrinti atitikties. &lt;strong&gt;Pakeiskite Išleidimo jutiklį.&lt;/strong&gt;&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h3&gt;&lt;strong&gt;The OBD Monitor and Failure Thresholds&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;the-obd-monitor-and-failure-thresholds&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#the-obd-monitor-and-failure-thresholds&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The ECU constantly monitors this efficiency ratio. If the calculated SCR efficiency drops below a legally mandated OBD threshold (e.g., 80%) for a specified driving period, the ECU logs an efficiency fault code (P420 or P20EE equivalent).&lt;/p&gt;
-&lt;p&gt;Crucially, an incorrect reading from &lt;strong&gt;either&lt;/strong&gt; the Inlet or the Outlet NOx sensor will skew this calculation, leading the ECU to incorrectly flag a catalyst or dosing failure, resulting in unnecessary repair costs.&lt;/p&gt;
-&lt;p&gt;Our sensors provide validated, stable, and synchronous readings, ensuring the ECU&amp;rsquo;s efficiency calculation is always based on reliable data, allowing technicians to trust the system’s diagnostic conclusions.&lt;/p&gt;
-&lt;hr&gt;
+&lt;h3&gt;&lt;strong&gt;OBD monitorius ir gedimų slenksčiai&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;obd-monitorius-ir-gedimų-slenksčiai&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#obd-monitorius-ir-gedim%c5%b3-slenks%c4%8diai&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ECU nuolat stebi šį efektyvumo santykį. Jei apskaičiuotas SCR efektyvumas nukrenta žemiau teisiškai nustatyto OBD slenksčio (pvz., 80 %) nustatytam važiavimo laikotarpiui, ECU užfiksuoja efektyvumo gedimo kodą (P420 arba P20EE atitikmenį).&lt;/p&gt;
+&lt;p&gt;Svarbu tai, kad neteisingas rodmuo iš &lt;strong&gt;bet kurio&lt;/strong&gt; – tiek Įleidimo, tiek Išleidimo NOx jutiklio – iškreips šį skaičiavimą, todėl ECU neteisingai pažymės katalizatoriaus arba dozavimo gedimą, o tai sukels nereikalingų remonto išlaidų.&lt;/p&gt;
+&lt;p&gt;Mūsų jutikliai teikia patvirtintus, stabilius ir sinchroniškus rodmenis, užtikrinančius, kad ECU efektyvumo skaičiavimas visada remtųsi patikimais duomenimis, o tai leidžia technikams pasitikėti sistemos diagnostinėmis išvadomis.&lt;/p&gt;
 
       </description>
     </item>
