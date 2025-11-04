@@ -1,5 +1,5 @@
 baseURL: https://lt.fortisor.com/
-languageCode: en-us
+languageCode: lt-LT
 title: Fortisor NOx Jutiklis
 module:
   imports:
